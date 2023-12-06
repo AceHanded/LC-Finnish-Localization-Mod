@@ -1,4 +1,4 @@
-# Shifu's Finnish Localization Pack
+# Lethal Company Finnish Localization Mod
 
 
 ## English Description
@@ -11,7 +11,7 @@ To delete the mod, remove all the files that came with the zip-file.
 Enjoy!
 
 
-## Suomenkielinen kuvaus
+## Suomenkielinen Kuvaus
 
 Suomalainen lokalisaatiomodi Lethal Companylle (elikkä Letaali Komppanialle), jonka tavoitteena on kääntää peli suomeksi ennennäkemättömällä tarkkuudella ja virheettömyydellä.
 
