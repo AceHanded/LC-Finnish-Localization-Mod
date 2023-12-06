@@ -1,0 +1,23 @@
+﻿# Creature
+
+Baboon hawk=Paviaanihaukka
+Bracken=Sananjalka
+Bunker spider=Bunkkerihämähäkki
+Circuit bees=Piirimehiläiset
+Coil-head=Kierrepää
+Earth leviathan=Maaleviatan
+Eyeless dog=Silmätön koira
+Forest giant=Metsäjätti
+Forest keeper=Metsänvartija
+Ghost girl=Aavetyttö
+Hoarding bug=Rohmujuuta
+Hygrodere=Hygrolima
+Jeb=Jakke
+Jester=Narri
+Landmine=Maamiina
+Manticoil=Vyyhtisirkka
+Roaming locusts=Vaeltavat kulkusirkat
+Snare flea=Ansakirppu
+Spore lizard=Itiölisko
+Thumper=Tömistelijä
+Turret=Tykkitorni

@@ -1,0 +1,38 @@
+﻿# Location
+
+Abandoned=Hylätty
+Diverse=Monipuolinen
+Eclipsed=Pimentynyt
+Flooded=Tulviva
+Foggy=Sumuinen
+Rainy=Sateinen
+Safe=Turvallinen
+Stormy=Myrskyinen
+Unknown=Tuntematon
+
+A competitive ecosystem supports aggressive lifeforms.=Kilpailullinen ekosysteemi tukee aggressiivisia elämänmuotoja.
+Arid. Thick haze, worsened by industrial artifacts.=Kuiva. Paksu usva, jota teolliset artefaktit pahentavat.
+Dominated by a few species.=Muutamien lajien vallitsema.
+Ecosystem supports territorial behaviour.=Ekosysteemi tukee reviirikäyttäytymistä.
+Expansive. Constant rain.=Kasvuhakuinen. Jatkuvaa sadetta.
+Frozen, rocky. Its planet orbits a white dwarf star.=Jäätynyt, kivinen. Sen planeetta kiertää valkoista kääpiötähteä.
+Humid. Rough terrain. Teeming with plant-life.=Kostea. Epätasainen maaperä. Kuhisee kasvillisuudella.
+No land masses. Continual storms.=Ei maamassaa. Jatkuvia myrskyjä.
+Oxygen critically low!=Happivarat kriittisen matalat!
+Unlikely for complex life to exist=Kompleksin elämän olemassaolo epätodennäköistä
+Where the Company resides.=Yhtiön toimipaikka.
+
+21 Offense=Hyökkäys-21
+220 Assurance=Vakuuttelu-220
+31 March=Rajamaa-31
+41 Experimentation=Kokeilu-41
+56 Vow=Lupaus-56
+61 March=Rajamaa-61
+7 Dine=Lounastus-7
+71 Gordion=Gorganzola-71
+8 Titan=Titan-8
+85 Rend=Repeymä-85
+
+HAZARD LEVEL:=VAARA-ASTE:
+Home base=Tukikohta
+Main entrance=Pääsisäänkäynti
