@@ -12,14 +12,16 @@ Unknown=Tuntematon
 
 A competitive ecosystem supports aggressive lifeforms.=Kilpailullinen ekosysteemi tukee aggressiivisia elämänmuotoja.
 Arid. Thick haze, worsened by industrial artifacts.=Kuiva. Paksu usva, jota teolliset artefaktit pahentavat.
+Dangerous entities have been rumored to take residence in the vast network of tunnels.=Vaarallisten entiteettien on huhuiltu asustavan laajassa tunneliverkostossa.
 Dominated by a few species.=Muutamien lajien vallitsema.
 Ecosystem supports territorial behaviour.=Ekosysteemi tukee reviirikäyttäytymistä.
 Expansive. Constant rain.=Kasvuhakuinen. Jatkuvaa sadetta.
 Frozen, rocky. Its planet orbits a white dwarf star.=Jäätynyt, kivinen. Sen planeetta kiertää valkoista kääpiötähteä.
-Humid. Rough terrain. Teeming with plant-life.=Kostea. Epätasainen maaperä. Kuhisee kasvillisuudella.
+Frozen, rocky. This moon was mined for resources. It's easy to get lost here.=Jäätynyt, kivinen. Louhittiin resurssiensa vuoksi. Tänne on helppo eksyä.
+Humid. Rough terrain. Teeming with plant-life.=Kostea. Vaikea maasto. Kuhisee kasvillisuudella.
 No land masses. Continual storms.=Ei maamassaa. Jatkuvia myrskyjä.
 Oxygen critically low!=Happivarat kriittisen matalat!
-Unlikely for complex life to exist=Kompleksin elämän olemassaolo epätodennäköistä
+Unlikely for complex life to exist=Kompleksin elämän olemassaolo epätodennäköistä.
 Where the Company resides.=Yhtiön toimipaikka.
 
 21 Offense=Hyökkäys-21
@@ -30,7 +32,7 @@ Where the Company resides.=Yhtiön toimipaikka.
 61 March=Rajamaa-61
 7 Dine=Lounastus-7
 71 Gordion=Gorganzola-71
-8 Titan=Titan-8
+8 Titan=Titaani-8
 85 Rend=Repeymä-85
 
 HAZARD LEVEL:=VAARA-ASTE:

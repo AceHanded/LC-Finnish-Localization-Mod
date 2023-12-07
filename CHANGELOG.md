@@ -1,5 +1,11 @@
 # Changelog
 
 ## Version 1.0.0
-- Initial mod release. | Modin ensijulkaisu.
-- A large portion of the game is translated, however, quite a few translations are still missing, especially from the terminal. | Valtaosa pelistä on käännetty, mutta melko moni käännös vielä puuttuu, varsinkin terminaalista.
+- Initial mod release.
+- A large portion of the game is translated, however, quite a few translations are still missing, especially from the terminal.
+
+## Version 1.0.1
+- Fixed a few small typos.
+
+## Version 1.0.2
+- Added missing translations for most of the purchasable items, as well as some interactive and UI elements. 
