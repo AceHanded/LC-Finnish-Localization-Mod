@@ -9,3 +9,6 @@
 
 ## Version 1.0.2
 - Added missing translations for most of the purchasable items, as well as some interactive and UI elements. 
+
+## Version 1.0.3
+- Added missing translations for rest of the purchasable items, corrected shown keybinds for the Finnish keyboard, and made small fixes to other translations.
