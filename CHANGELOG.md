@@ -11,4 +11,11 @@
 - Added missing translations for most of the purchasable items, as well as some interactive and UI elements. 
 
 ## Version 1.0.3
-- Added missing translations for rest of the purchasable items, corrected shown keybinds for the Finnish keyboard, and made small fixes to other translations.
+- Added missing translations for rest of the purchasable items.
+- Corrected shown keybinds for the Finnish keyboard.
+- Fixed some other translations.
+
+## Version 1.0.4
+- Added translations for content added in game version 45.
+- Added regex for translations that include keybinds, for the future, when the game actually updates them correctly (this effectively negates the corrected keybinds of Version 1.0.3).
+- Fixed a bunch of translations, again.
