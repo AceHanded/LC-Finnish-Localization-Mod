@@ -19,3 +19,8 @@
 - Added translations for content added in game version 45.
 - Added regex for translations that include keybinds, for the future, when the game actually updates them correctly (this effectively negates the corrected keybinds of Version 1.0.3).
 - Fixed a bunch of translations, again.
+
+## Version 1.1.0
+- Added a patcher file.
+  * Freedom units (pounds) are now correctly converted into kilograms.
+  * Added many missing translations for the terminal.

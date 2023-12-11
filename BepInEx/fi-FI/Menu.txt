@@ -92,6 +92,7 @@ Ping scan=Skannaa
 Point=Osoita
 Public=Julkinen
 Push to talk=Paina puhuaksesi
+REBIND CONTROLLERS=MUUTA OHJAIMIEN OHJAUKSIA
 REMAP CONTROLS=MUUTA OHJAUKSIA
 Replace furniture=Siirrä huonekalua
 Save File=Tallennus\ntiedosto
