@@ -24,3 +24,6 @@
 - Added a patcher file.
   * Freedom units (pounds) are now correctly converted into kilograms.
   * Added many missing translations for the terminal.
+
+## Version 1.1.1
+- Fixed some item and terminal translations.

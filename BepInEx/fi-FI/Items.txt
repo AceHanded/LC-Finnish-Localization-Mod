@@ -67,6 +67,7 @@ r:"^Remote(.*)"=Kaukosäädin$1
 r:"^Robot Toy(.*)"=Robottilelu$1
 r:"^Romantic table(.*)"=Romanttinen pöytä$1
 r:"^Rubber ducky(.*)"=Kumiankka$1
+r:"^Rubber Ducky(.*)"=Kumiankka$1
 r:"^Ship(.*)"=Alus$1
 r:"^Shotgun(.*)"=Haulikko$1
 r:"^Showel(.*)"=Lapio$1
