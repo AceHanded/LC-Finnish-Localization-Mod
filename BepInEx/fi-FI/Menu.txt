@@ -27,6 +27,7 @@
 > Quit=> Poistu pelistä
 > Reset all to default=> Palauta oletusasetukset
 > Resume=> Jatka
+> Set to defaults=> Aseta oletusarvoihin
 > Settings=> Asetukset
 
 ACCESSIBILITY=ESTEETTÖMYYS
@@ -106,6 +107,7 @@ Started server, joining...=Palvelin käynnistetty, liitytään...
 Store furniture=Säilö huonekalu
 Submit chat=Lähetä viesti
 The file will NOT save! Your ship must be in orbit.=Tiedostoa EI tallenneta! Aluksesi on oltava kiertoradalla.
+Turn furniture=Käännä huonekalua
 Unconfirmed changes!=Hyväksymättömiä muutoksia!
 Use monitor (V-Sync)=Monitori (V-Sync)
 Voice Volume=Puheen Äänenvoimakkuus

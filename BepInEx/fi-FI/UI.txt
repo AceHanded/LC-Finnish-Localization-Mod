@@ -6,6 +6,8 @@
 (Spectating: )=(Seurataan：)
 [LIFE SUPPORT: OFFLINE]=[ELINTOIMINNOT: POIS PÄÄLTÄ]
 
+1 Day Left=1 Päivä
+1 Days Left=1 Päivä
 ALERT!=HUOMIO!
 Alert! The autopilot is leaving due to dangerous conditions.=Huomio! Autopilotti lähtee vaarallisten olosuhteiden johdosta.
 Blast=Räjähdys

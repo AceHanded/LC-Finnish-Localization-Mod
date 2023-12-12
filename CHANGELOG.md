@@ -27,3 +27,8 @@
 
 ## Version 1.1.1
 - Fixed some item and terminal translations.
+
+## Version 1.1.2
+- Added missing translations for rest of the terminal.
+- Fixed many other translations.
+- **Note:** This will likely be the final "regular" update, even though there are still at least a couple of missing translations that have proven especially difficult to deal with. I strongly urge you to [open an issue](https://github.com/AceHanded/LC-Finnish-Localization-Mod/issues) on the mod's GitHub page if you discover a translation that you think is either missing, spelt wrong, or just blatantly incorrect. I will try to correct the opened issues as soon as possible.
