@@ -1,5 +1,10 @@
 ﻿# UI
 
+* Most profitable=Tuottoisin
+* Sustained the most injuries.=* Kärsi eniten vahinkoa.
+* The laziest employee.=* Laiskin työntekijä.
+* The most paranoid employee.=* Vainoharhaisin työntekijä.
+
 (Cannot hold until ship has landed)=(Ei voida pidellä ennen aluksen laskeutumista)
 (Dead)=(Kuollut)
 (Requires battery-powered item)=(Vaatii akulla toimivan esineen)
@@ -8,6 +13,7 @@
 
 1 Day Left=1 Päivä
 1 Days Left=1 Päivä
+Abandoned=Hylkääminen
 ALERT!=HUOMIO!
 Alert! The autopilot is leaving due to dangerous conditions.=Huomio! Autopilotti lähtee vaarallisten olosuhteiden johdosta.
 Blast=Räjähdys
@@ -25,15 +31,19 @@ Coil=Käämi
 Confirm changes?=Hyväksy muutokset?
 CREW:=MIEHISTÖ:
 CRITICAL INJURY=KRIITTINEN VAMMA
+Crushing=Murskaantuminen
 DEADLINE:\n NOW=TAKARAJA:\n NYT
 Door controls=Ovikontrollit
 DOOR HYDRAULICS:=OVIHYDRAULIIKAT:
 Drop your metallic items now! A static charge has been detected. You have seconds left to live.=Pudota metalliesineesi nyt! Staattinen varaus havaittu. Sinulla on sekunteja elää.
+Drowning=Hukkuminen
+Electrocution=Sähköisku
 Employee=Palkansaaja
 EMPLOYEE RANK=ARVO
 Fines=Sakot
 Got scrap!=Romu kerätty!
 Grabbing all connected users mod list\nCheck the log for results!!=Kerätään kaikkien yhdistäneiden käyttäjien modilistat\nKatso loki nähdäksesi tulokset!!
+Gravity=Painovoima
 Gunshots=Laukaukset
 HALT!=SEIS!
 HANDS FULL=KÄDET TÄYNNÄ
@@ -41,6 +51,7 @@ Intern=Harjoittelija
 Inventory full!=Tavaraluettelo täynnä!
 Item collected!=Esine kerätty!
 Items missed!=Esineet menetetty!
+Kicking=Potkiminen
 Lands the ship.=Saa aluksen laskeutumaan.
 Leader=Johtaja
 LOADING WORLD...=LADATAAN MAAILMAA...
@@ -50,6 +61,7 @@ Most profitable=Tuottavin
 NEW PROFIT QUOTA:=UUSI KIINTIÖ:
 New creature data sent to terminal!=Uutta olentodataa terminaalissa!
 None=Ei mitään
+Notes:=Muistiinpanot:
 Option A=Vaihtoehto A
 Part-timer=Osa-aikainen
 Paycheck!=Palkka!
@@ -64,7 +76,8 @@ Secure door=Turvaovi
 Sell scrap for cash.=Myy romua rahaksi.
 Ship leaving in one hour=Alus lähtee tunnin kuluttua
 Stats=Tilastot
-Strangulation=Kuristus
+Strangulation=Kuristaminen
+Suffocation=Tukehtuminen
 SYSTEMS ONLINE=JÄRJESTELMÄT PÄÄLLÄ
 Terminal=Terminaali
 The autopilot will now attempt to fly to the closest safe spaceport. Your items have been lost.=Autopilotti yrittää nyt lentää lähimmälle turvalliselle avaruussatamalle. Esineenne on menetetty.
