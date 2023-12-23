@@ -19,6 +19,7 @@ r:"^([0-9]+) lb$"=$1 lb
 r:"^([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Äänenvoimakkuus $1\nNosta äänenvoimakkuutta: $2\nLaske äänenvoimakkuutta: $3
 r:"^([0,2-9]) Days Left$"=$1 Päivää
 r:"^(\$[0-9]+)\nDays: ([0-9]+)$"=$1\nPv: $2
+r:"^(\$[0-9]+) Collected$"=$1 Kerätty
 r:"^(Current input device: \n)(.*)$"=Tämänhetkinen sisääntulolaite：$2
 r:"^\(([0-9]+)/([0-9]+) Votes\)$"=($1/$2 Ääntä)
 r:"^\[Cooldown: ([0-9]+) sec.\]$"=[Palautumisaika: $1 s]
@@ -50,6 +51,7 @@ r:"^Value: (.+)"=Arvo: $1
 r:"^Version (.+) is out!$"=Versio $1 julki!
 r:"^WARNING! Please return by (.+). A vote has been cast, and the autopilot ship will leave early.$"=VAROITUS!\nOlkaa hyvät ja palatkaa $1 mennessä. Äänestys on päättynyt, ja aluksen autopilotti lähtee aikaisin.
 r:"^Welcome! Version ([0-9]+) is out now.\nOthers must update their game to play with you on this version.\n\n\nGood luck!$"=Tervetuloa! Versio $1 on nyt julkaistu.\nMuiden täytyy päivittää pelinsä pelatakseen kanssasi tällä versiolla.\n\nOnnea matkaan!
+r:"^Your rank:\n(.+?)$"=Sijasi:\n$1
 
 sr:"^Notes: \n(.+)\n$"=Muistiinpanot: \n$1\n
 sr:"^Notes: \n(.+)\n(.+)\n$"=Muistiinpanot: \n$1\n$2\n

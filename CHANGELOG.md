@@ -13,12 +13,12 @@
 ## Version 1.0.3
 - Added missing translations for rest of the purchasable items.
 - Corrected shown keybinds for the Finnish keyboard.
-- Fixed some other translations.
+- General fixes to translations.
 
 ## Version 1.0.4
 - Added translations for content added in game version 45.
 - Added regex for translations that include keybinds, for the future, when the game actually updates them correctly (this effectively negates the corrected keybinds of Version 1.0.3).
-- Fixed a bunch of translations, again.
+- General fixes to translations.
 
 ## Version 1.1.0
 - Added a patcher file.
@@ -39,4 +39,8 @@
   * Located in `/BepInEx/config/com.acehanded.lethalcompany.finloc.cfg`, and requires the game to be launched once before being generated.
 - Added translations to some UI textures.
 - Updated the mod icon to look less grey, and replaced the main menu icon with it.
+- General fixes to translations.
+
+## Version 1.2.1
+- Added translations for content added in game version 47 (beta). Subject to change after the actual release.
 - General fixes to translations.
