@@ -34,7 +34,6 @@ Where the Company resides.=Yhtiön toimipaikka.
 71 Gordion=Gorganzola-71
 8 Titan=Titaani-8
 85 Rend=Repeymä-85
-Tuo-3=Tuo-3
 
 HAZARD LEVEL:=VAARA-ASTE:
 Home base=Tukikohta

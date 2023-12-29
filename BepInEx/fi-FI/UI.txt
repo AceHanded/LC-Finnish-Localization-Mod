@@ -1,13 +1,14 @@
 ﻿# UI
 
-* Most profitable=Tuottoisin
-* Sustained the most injuries.=* Kärsi eniten vahinkoa.
-* The laziest employee.=* Laiskin työntekijä.
-* The most paranoid employee.=* Vainoharhaisin työntekijä.
+Most profitable=Tuottoisin
+Sustained the most injuries.=Kärsi eniten vahinkoa.
+The laziest employee.=Laiskin työntekijä.
+The most paranoid employee.=Vainoharhaisin työntekijä.
 
 (Cannot hold until ship has landed)=(Ei voida pidellä ennen aluksen laskeutumista)
 (Dead)=(Kuollut)
 (Requires battery-powered item)=(Vaatii akulla toimivan esineen)
+(See how you compare to friends in the main menu leaderboard!)=(Katso kuinka vertaudut ystäviisi päävalikon pistetaulukosta!)
 (Spectating: )=(Seurataan：)
 [LIFE SUPPORT: OFFLINE]=[ELINTOIMINNOT: POIS PÄÄLTÄ]
 
@@ -73,8 +74,9 @@ PRIVATE means you must send invites through Steam for players to join.=YKSITYINE
 PUBLIC means your game will be visible on the server list for all to see.=JULKINEN tarkoittaa, että pelisi on näkyvissä palvelinlistalla kaikkien nähtävänä.
 Push to talk:=Paina puhuaksesi:
 PILOT COMPUTER=PILOTTIKONE
-Quota=Romu
+Quota=Kiintiö
 QUOTA REACHED!=KIINTIÖ TÄYSI!
+RECEIVING SIGNAL=VASTAANOTETAAN SIGNAALI
 Secure door=Turvaovi
 Sell scrap for cash.=Myy romua rahaksi.
 Ship leaving in one hour=Alus lähtee tunnin kuluttua
@@ -105,7 +107,6 @@ Waiting for crew...=Odotetaan pelaajia...
 WARNING!!! The autopilot ship will leave at midnight. Please return quickly.=VAROITUS!!! Aluksen autopilotti lähtee keskiyöllä. Palaa pikaisesti takaisin.
 Warning! No response from crew, which has not returned. Emergency code activated.=Varoitus! Ei vastausta miehistöltä, joka ei ole palannut. Hätäkoodi aktivoitu.
 Weather alert!=Kelivaroitus!
-Welcome to\nTuo-3=Tervetuloa Tuo-3:lle
 YOU ARE FIRED.=SAIT POTKUT.
 You can try the challenge moon again, but you can't retry your rank until the next challenge.=Voit kokeilla haastekuuta uudestaan, mutta et voi kokeilla parantaa sijoitustasi ennen seuraavaa haastetta.
 You did not meet the profit quota before the deadline.=Et täyttänyt kiintiötä ennen määräaikaa.

@@ -5,6 +5,7 @@
   LAN=  LAN
   Online=  Online
 
+(Launched in LAN mode)=(Käynnistetty LAN-tilassa)
 (Recommended)=(Suositeltu)
 (Removed score)=(Poistettu tulos)
 (You cannot resubmit your score.)=(Et voi lähettää tulostasi uudelleen.)
@@ -26,6 +27,7 @@
 > Host=> Luo peli
 > Invite friends=> Kutsu ystäviä
 > Join a crew=> Liity miehistöön
+> Join LAN session=> Liity LAN-sessioon
 > LAN=> LAN
 > Online=> Online
 > Quit=> Poistu pelistä
@@ -36,13 +38,14 @@
 
 ACCESSIBILITY=ESTEETTÖMYYS
 Adjust screen brightness until the symbol on the right is barely visible.=Säädä näytön kirkkautta kunnes oikeanpuoleinen symboli on juuri ja juuri näkyvissä.
-An error occured when syncing the scene! The host might not have loaded in.=Virhe synkronoitaessa sijaintia! Isäntä ei ole luultavasti latautunut peliin.
+Allow remote connections=Salli etä-\nyhteydet
+An error occured!=Tapahtui virhe!
+An error occured when syncing the scene! The host might not have loaded in.=Tapahtui virhe synkronoitaessa sijaintia! Isäntä ei ole luultavasti latautunut peliin.
 Arachnophobia Mode=Araknofobiatila
 Autosaving...=Automaatti\ntallennetaan...
 BACK=PALAA
 Back=Palaa
 Backspace=Askelpalautin
-Challenge Moon Tuo-3 Results=Haastekuu Tuo-3:n Tulokset
 CONFIRM=HYVÄKSY
 Confirm=Hyväksy
 CONTROLS=OHJAUKSET
@@ -65,6 +68,7 @@ Frame rate cap:=Virkistystaajuus:
 Friends-only=Yksityinen
 Gamma/Brightness:=Gamma/Kirkkaus:
 Go back=Palaa
+Host LAN Server:=Luo LAN-palvelin:
 INSTABILITY:=EPÄVAKAUS:
 Invert Y-Axis=Käännä Y-Akseli
 Join=Liity
@@ -73,6 +77,7 @@ LAUNCH MODE=KÄYNNISTYSTILA
 Loading...=Ladataan...
 Loading ranking...=Ladataan sijoitusta...
 Loading server list...=Ladataan palvelinlistaa...
+Local-only=Vain paikallinen
 Look sensitivity:=Hiiren herkkyys:
 Master volume:=Äänenvoimakkuus:
 Max players...=Maksimipelaajat...
@@ -88,8 +93,8 @@ Push to talk=Paina puhuaksesi
 REBIND CONTROLLERS=MUUTA OHJAIMIEN OHJAUKSIA
 REMAP CONTROLS=MUUTA OHJAUKSIA
 Replace furniture=Siirrä huonekalua
-Save File=Tallennus\ntiedosto
-Servers=Palvelin\nluettelo
+Save File=Tallennus-\ntiedosto
+Servers=Palvelin-\nluettelo
 Server name:=Palvelimen nimi:
 Sort: far=Järjestä: kaukana
 Sort: Friends=Järjestä: Ystävät
@@ -100,6 +105,8 @@ Sort: worldwide=Järjestä: kaikki
 Started server, joining...=Palvelin käynnistetty, liitytään...
 Tab=Sarkain
 The file will NOT save! Your ship must be in orbit.=Tiedostoa EI tallenneta! Aluksesi on oltava kiertoradalla.
+The host has not loaded or has already landed their ship.=Isäntä ei ole latautunut peliin tai on jo laskeutunut aluksellaan.
+The server is full!=Palvelin on täynnä!
 Unconfirmed changes!=Hyväksymättömiä muutoksia!
 Use monitor (V-Sync)=Monitori (V-Sync)
 Voice Volume=Puheen Äänenvoimakkuus
@@ -109,6 +116,7 @@ Window=Ikkuna
 Windowed fullscreen=Koko näytön ikkuna
 With challenge moon=Haastekuulla
 Would you like to leave the game?=Haluaisitko poistua pelistä?
+You are in LAN mode. When allowing remote connections through LAN, please ensure you have sufficient network security such as a firewall and/or VPN.=Olet LAN-tilassa. Sallittaessa etäyhteydet LAN-verkon kautta, varmista, että sinulla on riittävä verkkoturva, kuten palomuuri ja/tai VPN.
 
 
 # Keybinds
@@ -191,4 +199,4 @@ Walk right=Kävele oikealle
 
 # Credits
 
-r:"(?s)^Thanks to PuffoThePufferfish and Blueray901165 for helping shape this game. They were the closest with it through the entire process, helping me test and improve it every step of the way.\n\nThanks to my patrons who have generously supported me throughout this game's long and sometimes-rocky development:(.*)Thanks to Zenonclaw for modelling the shovel and the old elevator, which was scrapped long ago but still used for its parts.\n\nThanks to ZedFox for one of the boombox tracks \(the good one\).\n\nThanks to youreashotgun for the snare flea TV channel.\n\nAnd thanks to Noah, Seth, Null, Sam, Zenonclaw, Zedfox, and Joseph for helping playtest throughout early development.(.*)Sound effects from Freesound.org, licensed under CC-BY \(Attribution\). Thank you:(.*)$"=Kiitokset PuffoThePufferfishille ja Blueray901165:lle heidän avustansa tämän pelin muovaamisessa. He olivat sitä lähimpänä koko prosessin ajan, auttaen minua testaamaan ja parantamaan sitä sen jokaisessa vaiheessa.\n\nKiitokset tukijoilleni, jotka ovat anteliaasti tukeneet minua pelin pitkän ja toisinaan-kivisen kehityksen lävitse:$1Kiitokset Zenonclawille lapion ja vanhan hissin mallintamisesta, joista jälkimmäinen hylättiin jo aikoja sitten, mutta jonka osia edelleen käytettiin.\n\nKiitokset ZedFoxille yhdestä mankan kappaleesta (siitä hyvästä).\n\nKiitokset youreashotgunille ansakirpun TV-kanavasta.\n\nJa kiitokset Noahille, Sethille, Nullille, Samille, Zenonclawille, ZedFoxille, ja Josephille pelin testaamisesta läpi sen aikaisen kehityksen.$2Ääniefektit Freesound.orgista, CC-BY lisensoitu (Nimeäminen). Kiitokset:$3
+r:"(?s)^Thanks to PuffoThePufferfish and Blueray901165 for helping shape this game. They were the closest with it through the entire process, helping me test and improve it every step of the way.\n\nThanks to my patrons who have generously supported me throughout this game's long and sometimes-rocky development:(.*)Thanks to Zenonclaw for modelling the shovel and the old elevator, which was scrapped long ago but still used for its parts.\n\nThanks to ZedFox for one of the boombox tracks \(the good one\).\n\nThanks to youreashotgun for the snare flea TV channel.\n\nAnd thanks to Noah, Seth, Null, Sam, Zenonclaw, Zedfox, and Joseph for helping playtest throughout early development.(.*)Sound effects from Freesound.org, licensed under CC-BY \(Attribution\). Thank you:(.*)$"=Kiitokset PuffoThePufferfishille ja Blueray901165:lle heidän avustansa tämän pelin muovaamisessa. He olivat sitä lähimpänä koko prosessin ajan, auttaen minua testaamaan ja parantamaan sitä sen jokaisessa vaiheessa.\n\nKiitokset tukijoilleni, jotka ovat anteliaasti tukeneet minua pelin pitkän ja toisinaan kivisen kehityksen lävitse:$1Kiitokset Zenonclawille lapion ja vanhan hissin mallintamisesta, joista jälkimmäinen hylättiin jo aikoja sitten, mutta jonka osia edelleen käytettiin.\n\nKiitokset ZedFoxille yhdestä mankan kappaleesta (siitä hyvästä).\n\nKiitokset youreashotgunille ansakirpun TV-kanavasta.\n\nJa kiitokset Noahille, Sethille, Nullille, Samille, Zenonclawille, ZedFoxille, ja Josephille pelin testaamisesta läpi sen aikaisen kehityksen.$2Ääniefektit Freesound.orgista, CC-BY lisensoitu (Nimeäminen). Kiitokset:$3

@@ -1,8 +1,8 @@
 {
     "name": "Lethal_Company_Finnish_Localization",
-    "version_number": "1.2.1",
+    "version_number": "1.2.2",
     "website_url": "https://github.com/AceHanded/LC-Finnish-Localization-Mod",
-    "description": "A Finnish localization mod for Lethal Company.",
+    "description": "A Finnish localization / translation mod for Lethal Company.",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100",
 	    "Aavild-NewTerminal-1.4.0"
