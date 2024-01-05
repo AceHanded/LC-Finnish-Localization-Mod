@@ -1,6 +1,12 @@
 # Changelog
 
 
+## Version 1.3.0
+- Translated the Company voice lines into Finnish.
+  * Requires installation of [LCSoundTool](https://thunderstore.io/c/lethal-company/p/no00ob/LCSoundTool/) and [CustomSounds](https://thunderstore.io/c/lethal-company/p/Clementinise/CustomSounds/) if you want this to function.
+- Added translations for the sell screen and the end-of-the-day notes.
+- General fixes to translations.
+
 ## Version 1.2.2
 - Added translations for LAN-mode menu elements.
 - Improved translations for creature and log entries in the terminal.

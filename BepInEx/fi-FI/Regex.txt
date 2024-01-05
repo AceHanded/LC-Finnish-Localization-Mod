@@ -3,10 +3,15 @@
 r:"(?s)^Grab boombox: (.+?)\n([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Poimi mankka: $1\nÄänenvoimakkuus $2\nNosta äänenvoimakkuutta: $3\nLaske äänenvoimakkuutta: $4
 r:"(?s)^Television: (.+?)\n([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Televisio: $1\nÄänenvoimakkuus $2\nNosta äänenvoimakkuutta: $3\nLaske äänenvoimakkuutta: $4
 r:"(?s)^Record player: (.+?)\n([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Levysoitin: $1\nÄänenvoimakkuus $2\nNosta äänenvoimakkuutta: $3\nLaske äänenvoimakkuutta: $4
-r:"(?s)^(.*?) joined the ship.(.*)$"=$1 liittyi alukseen.$2
-r:"(?s)^(.*?) started the ship.(.*)$"=$1 käynnisti aluksen.$2
-r:"(?s)^(.*?) was left behind.(.*)$"=$1 jätettiin taakse.$2
-r:"(?s)^(.*?) disconnected.(.*)$"=$1 poistui.$2
+r:"(?s)^(.*)Most profitable(.*)$"=$1Tuottoisin palkansaaja.$2
+r:"(?s)^(.*)Sustained the most injuries.(.*)$"=$1Kesti eniten vahinkoa.$2
+r:"(?s)^(.*)The laziest employee.(.*)$"=$1Laiskin palkansaaja.$2
+r:"(?s)^(.*)The most paranoid employee.(.*)$"=$1Vainoharhaisin palkansaaja.$2
+r:"(?s)^(.+?) disconnected.(.*)$"=$1 poistui.$2
+r:"(?s)^(.+?) joined the ship.(.*)$"=$1 liittyi alukseen.$2
+r:"(?s)^(.+?) started the ship.(.*)$"=$1 käynnisti aluksen.$2
+r:"(?s)^(.+?) was kicked.(.*)$"=$1 potkittiin.$2
+r:"(?s)^(.+?) was left behind.(.*)$"=$1 jätettiin taakse.$2
 r:"^(.*) FPS$"=$1 FPS
 r:"^(.*)\nAM"=$1\nAM
 r:"^(.*)\nPM"=$1\nPM
@@ -27,7 +32,7 @@ r:"^\[Cooldown: ([0-9]+) sec.\]$"=[Palautumisaika: $1 s]
 r:"^\(Spectating: (.+)\)$"=(Seurataan: $1)
 r:"^1 casualties: (\-[0-9]+\%)\n\(1 bodies recovered\)$"=1 kuolonuhri: $1\n(1 ruumis noukittu)
 r:"^1 casualties: (\-[0-9]+\%)\n\(([0,2-9]+) bodies recovered\)$"=1 kuolonuhri: $1\n($2 ruumista noukittu)
-r:"^Body of (.+)$"=Henkilön $1 ruumis
+r:"^Body of (.+)$"=$1
 r:"^Casualties \((.+)\): (.+)$"=Kuolonuhreja ($1)：$2
 r:"^CELESTIAL BODY: (.+?)$"==TAIVAANKAPPALE: $1
 r:"^Challenge Moon (.+?) Results$"=Haastekuun $1 Tulokset
@@ -56,17 +61,32 @@ r:"^Welcome! Version ([0-9]+) is out now.\nOthers must update their game to play
 r:"^Welcome to\n(.+?)$"=Tervetuloa\nkuulle\n$1
 r:"^Your rank:\n(.+?)$"=Sijasi:\n$1
 
-sr:"^(.+?) \n* (.+?)$"=Muistiinpanot: \n* $1
-sr:"^(.+?) \n* (.+?)\n* (.+?)$"=Muistiinpanot: \n* $1\n* $2
-sr:"^(.+?) \n* (.+?)\n* (.+?)\n* (.+?)$"=Muistiinpanot: \n* $1\n* $2\n* $3
-sr:"^(.+?) \n* (.+?)\n* (.+?)\n* (.+?)\n* (.+?)$"=Muistiinpanot: \n* $1\n* $2\n* $3\n* $4
-sr:"^(.+?) \((x[0-9]+)\) : ([0-9]+)$"=$1 ($2) : $3
+
+# Special regex
+
 sr:"^(.+?) collected!$"=$1 kerätty!
 sr:"^Cause of death: (.+)$"=Kuolinsyy: $1
 sr:"^CELESTIAL BODY: (.+?)$"=TAIVAANKAPPALE: $1
 sr:"^Drop (.+?): \[G\]$"=Pudota $1: [G]
+sr:"^Notes: \n* (.+)\n* (.+)\n* (.+)\n* (.+)$"=Muistiinpanot: \n* $1\n* $2\n* $3 \n* $4
 sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.*)$"=Kiertää: $1\nKANTA: $2\nOLOSUHTEET: $3\nELÄIMISTÖ: $4\n$5
 sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\nWeather: (.+?)$"=Kiertää: $1\nKANTA: $2\nOLOSUHTEET: $3\nELÄIMISTÖ: $4\nSää: $5
 sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)$"=Kiertää: $1\nKANTA: $2\nOLOSUHTEET: $3\nELÄIMISTÖ: $4
 sr:"^POPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.*)$"=KANTA: $1\nOLOSUHTEET: $2\nELÄIMISTÖ: $3\n$4
 sr:"^POPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)$"=KANTA: $1\nOLOSUHTEET: $2\nELÄIMISTÖ: $3
+
+
+# Sell screen
+
+sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n
+sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n
+sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n
+sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9\n$10 (x$11) : $12 \n
+sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n
+sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n$16 (x$17) : $18 \n
+sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n$16 (x$17) : $18 \n$19 (x$20) : $21 \n
+sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n$16 (x$17) : $18 \n$19 (x$20) : $21 \n$22 (x$23) : $24 \n
+sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n$16 (x$17) : $18 \n$19 (x$20) : $21 \n$22 (x$23) : $24 \n$25 (x$26) : $27 \n
+sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n$16 (x$17) : $18 \n$19 (x$20) : $21 \n$22 (x$23) : $24 \n$25 (x$26) : $27 \n$28 (x$29) : $30 \n
+
+# sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n$16 (x$17) : $18 \n$19 (x$20) : $21 \n$22 (x$23) : $24 \n$25 (x$26) : $27 \n$28 (x$29) : $30 \n
