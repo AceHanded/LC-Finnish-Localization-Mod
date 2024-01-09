@@ -1,5 +1,9 @@
 # Lethal Company Finnish Localization Mod
 
+<img src="https://raw.githubusercontent.com/AceHanded/LC-Finnish-Localization-Mod/main/Images/MenuShowcase.png" alt="menushowcase" width="400"/>
+<img src="https://raw.githubusercontent.com/AceHanded/LC-Finnish-Localization-Mod/main/Images/OptionsShowcase.png" alt="optionsshowcase" width="400"/>
+<img src="https://raw.githubusercontent.com/AceHanded/LC-Finnish-Localization-Mod/main/Images/MonitorShowcase.png" alt="monitorshowcase" width="400"/>
+<img src="https://raw.githubusercontent.com/AceHanded/LC-Finnish-Localization-Mod/main/Images/TerminalShowcase.png" alt="terminalshowcase" width="400"/>
 
 ## English Description
 
@@ -23,3 +27,6 @@ Poistaaksesi modin, poista kaikki zip-tiedoston mukana tulleet tiedostot.
 Kehotan vahvasti [luomaan ongelmalangan](https://github.com/AceHanded/LC-Finnish-Localization-Mod/issues) modin GitHub-sivulla, mikäli löydät käännöksen joka mielestäsi puuttuu, on väärin kirjoitettu, tai on muuten vain virheellinen. Pyrin korjaamaan esille tulleet ongelmat mahdollisimman pian.
 
 Nauttikaa!
+
+
+[<img src="https://raw.githubusercontent.com/AceHanded/LC-Finnish-Localization-Mod/main/Images/CoffeeButton.png" width="175">](https://www.buymeacoffee.com/acehand)

@@ -1,5 +1,9 @@
-# Changelog
-
+## Version 1.3.1
+- Removed the [NewTerminal](https://thunderstore.io/c/lethal-company/p/Aavild/NewTerminal/) mod dependency.
+  * Terminal is now translated solely via this mod's patcher file.
+  * Modded moons now show up correctly in the terminal.
+  * If you have previously used NewTerminal with this mod, I recommend uninstalling it, along with its config files.
+- General fixes to translations.
 
 ## Version 1.3.0
 - Translated the Company voice lines into Finnish.

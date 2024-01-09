@@ -29,6 +29,7 @@
 > Join a crew=> Liity miehistöön
 > Join LAN session=> Liity LAN-sessioon
 > LAN=> LAN
+> Mod Settings=> Modiasetukset
 > Online=> Online
 > Quit=> Poistu pelistä
 > Reset all to default=> Palauta oletusasetukset
@@ -42,8 +43,9 @@ Allow remote connections=Salli etä-\nyhteydet
 An error occured!=Tapahtui virhe!
 An error occured when syncing the scene! The host might not have loaded in.=Tapahtui virhe synkronoitaessa sijaintia! Isäntä ei ole luultavasti latautunut peliin.
 An error occured while spawning into the game. Please report the glitch!=Tapahtui virhe latautuessa peliin. Ole hyvä ja ilmoita ongelmasta!
+Apply=Hyväksy
 Arachnophobia Mode=Araknofobiatila
-Autosaving...=Automaatti\ntallennetaan...
+Autosaving...=Automaatti-\ntallennetaan...
 BACK=PALAA
 Back=Palaa
 Backspace=Askelpalautin
@@ -116,7 +118,7 @@ The server is full!=Palvelin on täynnä!
 Unconfirmed changes!=Hyväksymättömiä muutoksia!
 Use monitor (V-Sync)=Monitori (V-Sync)
 Voice Volume=Puheen Äänenvoimakkuus
-WAITING FOR INPUT=ODOTETAAN SYÖTETTÄ
+Waiting for input=Odotetaan syötettä
 Welcome!=Tervetuloa!
 Window=Ikkuna
 Windowed fullscreen=Koko näytön ikkuna
@@ -124,6 +126,7 @@ With challenge moon=Haastekuulla
 Would you like to leave the game?=Haluaisitko poistua pelistä?
 yeah you should be good now lol=Noniin, nyt näyttää hyvältä
 You are in LAN mode. When allowing remote connections through LAN, please ensure you have sufficient network security such as a firewall and/or VPN.=Olet LAN-tilassa. Sallittaessa etäyhteydet LAN-verkon kautta, varmista, että sinulla on riittävä verkkoturva, kuten palomuuri ja/tai VPN.
+Welcome!\nThis patch includes the replayable challenge moons and new factory hallway types, as well as some tweaks to existing creatures.\n\nOthers must update their game to play with you on this version.\n\n\nGood luck!=Tervetuloa!\nTämä päivitys sisältää uudelleenpelattavat haastekuut ja uusia tehdaskäytävätyyppejä, sekä joitakin muutoksia nykyisiin olentoihin.\n\nMuiden täytyy päivittää pelinsä pelatakseen kanssasi tällä versiolla.\n\n\nOnnea matkaan!
 
 
 # Keybinds
