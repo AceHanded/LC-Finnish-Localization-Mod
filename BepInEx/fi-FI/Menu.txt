@@ -52,9 +52,11 @@ Backspace=Askelpalautin
 Cancel=Peruuta
 CONFIRM=HYVÄKSY
 Confirm=Hyväksy
+Confirm changes?=Hyväksy muutokset?
 CONTROLS=OHJAUKSET
 Cosmetics Enabled:=Kosmetiikat Päällä:
 Credits=Lopputekstit
+CREW:=MIEHISTÖ:
 Crew Size:=Miehistön Koko:
 Deceased=Kuollut
 Delete=Poista
@@ -77,6 +79,7 @@ Host LAN Server:=Luo LAN-palvelin:
 INSTABILITY:=EPÄVAKAUS:
 Invert Y-Axis=Käännä Y-Akseli
 Join=Liity
+Kick=Potki
 LAN=LAN
 LAUNCH MODE=KÄYNNISTYSTILA
 Loading...=Ladataan...
@@ -95,6 +98,9 @@ Name your server...=Nimeä palvelimesi...
 No available servers to join.=Ei palvelimia saatavilla.
 Notice: High max player counts\nmay cause lag.=Huomautus: Korkeat maksimipelaajamäärät voivat aiheuttaa viivettä.
 Online=Online
+Option A=Vaihtoehto A
+PRIVATE means you must send invites through Steam for players to join.=YKSITYINEN tarkoittaa, että kutsut täytyy lähettää Steamin kautta pelaajien liittymiseksi.
+PUBLIC means your game will be visible on the server list for all to see.=JULKINEN tarkoittaa, että pelisi on näkyvissä palvelinlistalla kaikkien nähtävänä.
 Public=Julkinen
 Push to talk=Paina puhuaksesi
 REBIND CONTROLLERS=MUUTA OHJAIMIEN OHJAUKSIA
@@ -115,21 +121,23 @@ The file will NOT save! Your ship must be in orbit.=Tiedostoa EI tallenneta! Alu
 The host has not loaded or has already landed their ship.=Isäntä ei ole latautunut peliin tai on jo laskeutunut aluksellaan.
 The server host disconnected.=Palvelimen isäntä poistui.
 The server is full!=Palvelin on täynnä!
+Uncapped=Rajoittamaton
 Unconfirmed changes!=Hyväksymättömiä muutoksia!
 Use monitor (V-Sync)=Monitori (V-Sync)
 Voice Volume=Puheen Äänenvoimakkuus
+Voice volume=Puheen äänenvoimakkuus
 Waiting for input=Odotetaan syötettä
 Welcome!=Tervetuloa!
+Welcome!\nThis patch includes the replayable challenge moons and new factory hallway types, as well as some tweaks to existing creatures.\n\nOthers must update their game to play with you on this version.\n\n\nGood luck!=Tervetuloa!\nTämä päivitys sisältää uudelleenpelattavat haastekuut ja uusia tehdaskäytävätyyppejä, sekä joitakin muutoksia nykyisiin olentoihin.\n\nMuiden täytyy päivittää pelinsä pelatakseen kanssasi tällä versiolla.\n\n\nOnnea matkaan!
 Window=Ikkuna
 Windowed fullscreen=Koko näytön ikkuna
 With challenge moon=Haastekuulla
 Would you like to leave the game?=Haluaisitko poistua pelistä?
 yeah you should be good now lol=Noniin, nyt näyttää hyvältä
 You are in LAN mode. When allowing remote connections through LAN, please ensure you have sufficient network security such as a firewall and/or VPN.=Olet LAN-tilassa. Sallittaessa etäyhteydet LAN-verkon kautta, varmista, että sinulla on riittävä verkkoturva, kuten palomuuri ja/tai VPN.
-Welcome!\nThis patch includes the replayable challenge moons and new factory hallway types, as well as some tweaks to existing creatures.\n\nOthers must update their game to play with you on this version.\n\n\nGood luck!=Tervetuloa!\nTämä päivitys sisältää uudelleenpelattavat haastekuut ja uusia tehdaskäytävätyyppejä, sekä joitakin muutoksia nykyisiin olentoihin.\n\nMuiden täytyy päivittää pelinsä pelatakseen kanssasi tällä versiolla.\n\n\nOnnea matkaan!
 
 
-# Keybinds
+## Keybinds
 
 Button East=Oikea Painike
 Button North=Yläpainike
@@ -207,6 +215,6 @@ Walk left=Kävele vasemmalle
 Walk right=Kävele oikealle
 
 
-# Credits
+## Credits
 
 r:"(?s)^Thanks to PuffoThePufferfish and Blueray901165 for helping shape this game. They were the closest with it through the entire process, helping me test and improve it every step of the way.\n\nThanks to my patrons who have generously supported me throughout this game's long and sometimes-rocky development:(.*)Thanks to Zenonclaw for modelling the shovel and the old elevator, which was scrapped long ago but still used for its parts.\n\nThanks to ZedFox for one of the boombox tracks \(the good one\).\n\nThanks to youreashotgun for the snare flea TV channel.\n\nAnd thanks to Noah, Seth, Null, Sam, Zenonclaw, Zedfox, and Joseph for helping playtest throughout early development.(.*)Sound effects from Freesound.org, licensed under CC-BY \(Attribution\). Thank you:(.*)$"=Kiitokset PuffoThePufferfishille ja Blueray901165:lle heidän avustansa tämän pelin muovaamisessa. He olivat sitä lähimpänä koko prosessin ajan, auttaen minua testaamaan ja parantamaan sitä sen jokaisessa vaiheessa.\n\nKiitokset tukijoilleni, jotka ovat anteliaasti tukeneet minua pelin pitkän ja toisinaan kivisen kehityksen lävitse:$1Kiitokset Zenonclawille lapion ja vanhan hissin mallintamisesta, joista jälkimmäinen hylättiin jo aikoja sitten, mutta jonka osia edelleen käytettiin.\n\nKiitokset ZedFoxille yhdestä mankan kappaleesta (siitä hyvästä).\n\nKiitokset youreashotgunille ansakirpun TV-kanavasta.\n\nJa kiitokset Noahille, Sethille, Nullille, Samille, Zenonclawille, ZedFoxille, ja Josephille pelin testaamisesta läpi sen aikaisen kehityksen.$2Ääniefektit Freesound.orgista, CC-BY lisensoitu (Nimeäminen). Kiitokset:$3

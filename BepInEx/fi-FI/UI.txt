@@ -2,117 +2,144 @@
 
 (Cannot hold until ship has landed)=(Ei voida pidellä ennen aluksen laskeutumista)
 (Dead)=(Kuollut)
-(Note that if someone doesnt show up on the list, they may not have LC_API installed)=(Huom. jos joku ei ole listalla, LC_API ei luultavasti ole asennettuna)
+(Note that if someone doesnt show up on the list, they may not have LC_API installed)=(Huom. jos joku pelaaja ei ole listalla, LC_API ei luultavasti ole asennettuna)
 (Radar booster)=(Tutkakiihdytin)
 (Requires battery-powered item)=(Vaatii akulla toimivan esineen)
 (See how you compare to friends in the main menu leaderboard!)=(Katso kuinka vertaudut ystäviisi päävalikon pistetaulukosta!)
 (Spectating: )=(Seurataan：)
 [LIFE SUPPORT: OFFLINE]=[ELINTOIMINNOT: POIS PÄÄLTÄ]
 
-1 Day Left=1 Päivä
-1 Days Left=1 Päivä
-Abandoned=Hylkääminen
-ALERT!=HUOMIO!
-Alert! The autopilot is leaving due to dangerous conditions.=Huomio! Autopilotti lähtee vaarallisten olosuhteiden johdosta.
 AS MUCH PROFIT AS POSSIBLE=MAHD. PALJON TUOTTOA
-Asking all other players for installed mods..=Haetaan asennettuja modeja kaikilta muilta pelaajilta..
+BROADCASTED SPECIAL CODE=LÄHETETTY ERITYISKOODI
+CRITICAL INJURY=KRIITTINEN VAMMA
+DEADLINE:\n1 Days=TAKARAJA:\n1 Päivä
+DEADLINE:\n NOW=TAKARAJA:\n NYT
+DOOR HYDRAULICS:=OVIHYDRAULIIKAT:
+Grabbing all connected users mod list\nCheck the log for results!!=Kerätään kaikkien yhdistäneiden käyttäjien modilistat\nKatso loki nähdäksesi tulokset!!
+HANDS FULL=KÄDET TÄYNNÄ
+HAZARD LEVEL:=VAARA-ASTE:
+Inventory full!=Tavaraluettelo täynnä!
+LOADING WORLD...=LADATAAN MAAILMAA...
+Locked=Lukittu
+New creature data sent to terminal!=Uutta olentodataa terminaalissa!
+Oxygen critically low!=Happivarat kriittisen matalat!
+Paycheck!=Palkka!
+Push to talk:=Paina puhuaksesi:
+RECEIVING SIGNAL=VASTAANOTETAAN SIGNAALI
+SYSTEMS ONLINE=JÄRJESTELMÄT PÄÄLLÄ
+TOTAL:=SUMMA:
+Typing...=Kirjoitetaan...
+VISIBILITY LOW!\n\nSteam leak detected in area=HEIKKO NÄKYVYYS!\n\nHöyryvuoto havaittu alueella
+Waiting for crew...=Odotetaan pelaajia...
+
+
+## Autopilot
+
+Alert! The autopilot is leaving due to dangerous conditions.=Huomio! Autopilotti lähtee vaarallisten olosuhteiden johdosta.
+PILOT COMPUTER=PILOTTIKONE
+Ship leaving in one hour=Alus lähtee tunnin kuluttua
+The autopilot will now attempt to fly to the closest safe spaceport. Your items have been lost.=Autopilotti yrittää nyt lentää lähimmälle turvalliselle avaruussatamalle. Esineenne on menetetty.
+The Company must minimize risk of damage to proprietary hardware. Goodbye!=Yhtiön on minimoitava vahinkoriski omistuslaitteistoon. Hyvästi!
+Voted for ship to leave early=Äänestetty aluksen aikaisesta lähdöstä
+WARNING!!! The autopilot ship will leave at midnight. Please return quickly.=VAROITUS!!! Aluksen autopilotti lähtee keskiyöllä. Palaa pikaisesti takaisin.
+Warning! No response from crew, which has not returned. Emergency code activated.=Varoitus! Ei vastausta miehistöltä, joka ei ole palannut. Hätäkoodi aktivoitu.
+
+
+## Causes of death
+
+Abandoned=Hylkääminen
 Blast=Räjähdys
 Bludgeoning=Nuijinta
-Boss=Pomo
-BROADCASTED SPECIAL CODE=LÄHETETTY ERITYISKOODI
-Buy flashlights and travel to new planets!=Osta taskulamppuja ja matkusta uusille planeetoille!
+Crushing=Murskaantuminen
+Drowning=Hukkuminen
+Electrocution=Sähköisku
+Gravity=Painovoima
+Gunshots=Laukaukset
+Kicking=Potkiminen
+Mauling=Raatelu
+Strangulation=Kuristaminen
+Suffocation=Tukehtuminen
+Unknown=Tuntematon
+
+
+## Employee ranks
+
+Intern=Harjoittelija
+Part-timer=Osa-aikainen
+Employee=Palkansaaja
+Leader=Johtaja
+Boss=Esimies
+
+
+## End-of-the-day / game / quota
+
+1 Day Left=1 Päivä
+Bubblegum=Purkkapallo
+CHALLENGE RESULTS:=HAASTEEN TULOKSET:
+EMPLOYEE RANK=PALKANSAAJA-ARVO
+Fines=Sakot
+NEW PROFIT QUOTA:=UUSI KIINTIÖ:
+Notes:=Muistiinpanot:
+Notes: \n=Muistiinpanot: \n
+PERFORMANCE REPORT=SUORITUSRAPORTTI
+QUOTA REACHED!=KIINTIÖ TÄYSI!
+Sneakers=Tennaripari
+Stats=Tilastot
+TO MEET PROFIT QUOTA=KIINTIÖN TÄYTTÄMISEKSI
+YOU ARE FIRED.=SAIT POTKUT.
+You did not meet the profit quota before the deadline.=Et täyttänyt kiintiötä ennen määräaikaa.
+Your rank:=Sijasi:
+
+
+## Scanner
+
+Brake lever=Jarruvipu
+Buy flashlights and travel to new planets!=Osta taskulamppuja ja matkaa uusille planeetoille!
 Can be accessed from terminal=Voidaan avata terminaalista.
 Can't stay closed forever=Ei pysy kiinni ikuisesti.
-CHALLENGE RESULTS:=HAASTEEN TULOKSET:
+Charges batteries=Lataa akkuja.
+Coil=Käämi
+Data chip=Datasiru
+Door controls=Ovikontrollit
+Home base=Tukikohta
+Lands the ship.=Saa aluksen laskeutumaan.
+Main entrance=Pääsisäänkäynti
+Quota=Kiintiö
+Secure door=Turvaovi
+Sell scrap for cash.=Myy romua rahaksi.
+Ship=Alus
+Terminal=Terminaali
+Training manual=Valmennusmanuaali
+Useful info!=Kelpoa tietoa!
+
+
+## Side notifications
+
+ALERT!=HUOMIO!
+Asking all other players for installed mods..=Haetaan asennettuja modeja kaikilta muilta pelaajilta..
+Check the logs for more detailed results.\n=Tarkista lokit saadaksesi tarkempia tietoja.\n
+Drop your metallic items now! A static charge has been detected. You have seconds left to live.=Pudota metalliesineesi nyt! Staattinen varaus havaittu. Sinulla on sekunteja elinaikaa.
+Got scrap!=Romua kerätty!
+HALT!=SEIS!
+Item collected!=Esine kerätty!
+Items missed!=Esineet menetetty!
+Mod List:=Modilista:
+The vehicle returned with your purchased items. Our delivery fee cannot be refunded.=Kulkuneuvo palasi ostamienne esineiden kanssa. Toimitusmaksuamme ei voida palauttaa.
+This is the weekly challenge moon.\nYou have one day and one attempt to make as much profit as possible.=Tämä on viikottainen haastekuu.\nSinulla on yksi päivä ja yksi yritys saada mahdollisimman paljon tuottoa.
+TIP:=VINKKI:
+To sell, use the terminal to route the ship to the company building.=Esineiden myymiseksi, suuntaa terminaalin avulla kohti niiden myyntipaikkaa.
+Trying again?=Kokeilemassa uudestaan?
+Use the ship computer terminal to access secure doors.=Käytä aluksen tietokoneterminaalia suljettujen ovien avaamiseksi.
+Weather alert!=Kelivaroitus!
+You can try the challenge moon again, but you can't retry your rank until the next challenge.=Voit kokeilla haastekuuta uudestaan, mutta et voi kokeilla parantaa sijoitustasi ennen seuraavaa haastetta.
+You have 0 days left to meet the quota. Use the terminal to route to the company and sell.=Sinulla on 0 vuorokautta aikaa hankkia romua. Suuntaa terminaalin avulla kohti esineiden myyntipaikkaa.
+You have landed in an eclipse. Exercise caution!=Olet laskeutunut pimennykseen. Etene varoen!
+
+
+## Suits
+
 Change: Green suit=Vaihda: Vihreä puku
 Change: Hazard suit=Vaihda: Suojapuku
 Change: Pajama suit=Vaihda: Yöpuku
 Change: Purple Suit=Vaihda: Violetti puku
 Change suit=Vaihda puku
-Charges batteries=Lataa akkuja.
-Check the logs for more detailed results.\n=Tarkista loki saadaksesi tarkempia tietoja.\n
-Coil=Käämi
-Confirm changes?=Hyväksy muutokset?
-CREW:=MIEHISTÖ:
-CRITICAL INJURY=KRIITTINEN VAMMA
-Crushing=Murskaantuminen
-DEADLINE:\n NOW=TAKARAJA:\n NYT
-Door controls=Ovikontrollit
-DOOR HYDRAULICS:=OVIHYDRAULIIKAT:
-Drop your metallic items now! A static charge has been detected. You have seconds left to live.=Pudota metalliesineesi nyt! Staattinen varaus havaittu. Sinulla on sekunteja elää.
-Drowning=Hukkuminen
-Electrocution=Sähköisku
-Employee=Palkansaaja
-EMPLOYEE RANK=PALKANSAAJA-ARVO
-Fines=Sakot
-Got scrap!=Romu kerätty!
-Grabbing all connected users mod list\nCheck the log for results!!=Kerätään kaikkien yhdistäneiden käyttäjien modilistat\nKatso loki nähdäksesi tulokset!!
-Gravity=Painovoima
-Gunshots=Laukaukset
-HALT!=SEIS!
-HANDS FULL=KÄDET TÄYNNÄ
-Intern=Harjoittelija
-Inventory full!=Tavaraluettelo täynnä!
-Item collected!=Esine kerätty!
-Items missed!=Esineet menetetty!
-Kick=Potki
-Kicking=Potkiminen
-Lands the ship.=Saa aluksen laskeutumaan.
-Leader=Johtaja
-LOADING WORLD...=LADATAAN MAAILMAA...
-Locked=Lukittu
-Mauling=Raatelu
-Mod List:=Modilista:
-Most profitable=Tuottavin
-NEW PROFIT QUOTA:=UUSI KIINTIÖ:
-New creature data sent to terminal!=Uutta olentodataa terminaalissa!
-None=Ei mitään
-Notes:=Muistiinpanot:
-Notes: \n=Muistiinpanot: \n
-Option A=Vaihtoehto A
-Part-timer=Osa-aikainen
-Paycheck!=Palkka!
-PERFORMANCE REPORT=SUORITUSRAPORTTI
-PRIVATE means you must send invites through Steam for players to join.=YKSITYINEN tarkoittaa, että kutsut täytyy lähettää Steamin kautta pelaajien liittymiseksi.
-PUBLIC means your game will be visible on the server list for all to see.=JULKINEN tarkoittaa, että pelisi on näkyvissä palvelinlistalla kaikkien nähtävänä.
-Push to talk:=Paina puhuaksesi:
-PILOT COMPUTER=PILOTTIKONE
-Quota=Kiintiö
-QUOTA REACHED!=KIINTIÖ TÄYSI!
-RECEIVING SIGNAL=VASTAANOTETAAN SIGNAALI
-Secure door=Turvaovi
-Sell scrap for cash.=Myy romua rahaksi.
-Ship leaving in one hour=Alus lähtee tunnin kuluttua
-Stats=Tilastot
-Strangulation=Kuristaminen
-Suffocation=Tukehtuminen
-SYSTEMS ONLINE=JÄRJESTELMÄT PÄÄLLÄ
-Terminal=Terminaali
-The autopilot will now attempt to fly to the closest safe spaceport. Your items have been lost.=Autopilotti yrittää nyt lentää lähimmälle turvalliselle avaruussatamalle. Esineenne on menetetty.
-The Company must minimize risk of damage to proprietary hardware. Goodbye!=Yhtiön on minimoitava vahinkoriski omistuslaitteistoon. Hyvästi!
-The vehicle returned with your purchased items. Our delivery fee cannot be refunded.=Kulkuneuvo palasi ostamienne esineiden kanssa. Toimitusmaksuamme ei voida palauttaa.
-This is the weekly challenge moon.\nYou have one day and one attempt to make as much profit as possible.=Tämä on viikottainen haastekuu.\nSinulla on yksi päivä ja yksi yritys saada mahdollisimman paljon tuottoa.
-TIP:=VINKKI:
-TO MEET PROFIT QUOTA=KIINTIÖN TÄYTTÄMISEKSI
-To sell, use the terminal to route the ship to the company building.=Myydäksenne, käyttäkää terminaalia määrittääksenne reitin yhtiön rakennukselle.
-Voted for ship to leave early=Äänestetty aluksen aikaisesta lähdöstä.
-TOTAL:=SUMMA:
-Training manual=Valmennusmanuaali
-Trying again?=Kokeilemassa uudestaan?
-Typing...=Kirjoitetaan...
-Uncapped=Rajoittamaton
-Use the ship computer terminal to access secure doors.=Käytä aluksen tietokoneterminaalia suljettujen ovien avaamiseksi.
-Useful info!=Kelpoa tietoa!
-Value: ???=Arvo ???
-VISIBILITY LOW!\n\nSteam leak detected in area=HEIKKO NÄKYVYYS!\n\nHöyryvuoto havaittu alueella
-Voice volume=Puheen äänenvoimakkuus
-Waiting for crew...=Odotetaan pelaajia...
-WARNING!!! The autopilot ship will leave at midnight. Please return quickly.=VAROITUS!!! Aluksen autopilotti lähtee keskiyöllä. Palaa pikaisesti takaisin.
-Warning! No response from crew, which has not returned. Emergency code activated.=Varoitus! Ei vastausta miehistöltä, joka ei ole palannut. Hätäkoodi aktivoitu.
-Weather alert!=Kelivaroitus!
-YOU ARE FIRED.=SAIT POTKUT.
-You can try the challenge moon again, but you can't retry your rank until the next challenge.=Voit kokeilla haastekuuta uudestaan, mutta et voi kokeilla parantaa sijoitustasi ennen seuraavaa haastetta.
-You did not meet the profit quota before the deadline.=Et täyttänyt kiintiötä ennen määräaikaa.
-You have 0 days left to meet the quota. Use the terminal to route to the company and sell.=Sinulla on 0 vuorokautta aikaa hankkia romua. Suuntaa terminaalin avulla kohti esineiden myyntipaikkaa.
-You have landed in an eclipse. Exercise caution!=Olet laskeutunut pimennykseen. Etene varoen!
-Your rank:=Sijasi:

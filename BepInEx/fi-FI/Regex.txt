@@ -18,6 +18,7 @@ r:"^(.*)\nPM"=$1\nPM
 r:"^(.*)\[MODDED\](.+?)$"=$1[MODATTU]$2
 r:"^(.*)SHIP: (\$[0-9]+)$"=$1ALUS: $2
 r:"^(.+?)-([0-9]+)$"=$1-$2
+r:"^(.+?) collected!$"=$1 kerätty!
 r:"^([0,2-9]+) casualties: (\-[0-9]+\%)\n\(1 bodies recovered\)$"=$1 kuolonuhria: $2\n(1 ruumis noukittu)
 r:"^([0,2-9]+) casualties: (\-[0-9]+\%)\n\(([0,2-9]+) bodies recovered\)$"=$1 kuolonuhria: $2\n($3 ruumista noukittu)
 r:"^([0-9]+) EXP$"=$1 XP
@@ -34,19 +35,17 @@ r:"^1 casualties: (\-[0-9]+\%)\n\(1 bodies recovered\)$"=1 kuolonuhri: $1\n(1 ru
 r:"^1 casualties: (\-[0-9]+\%)\n\(([0,2-9]+) bodies recovered\)$"=1 kuolonuhri: $1\n($2 ruumista noukittu)
 r:"^Body of (.+)$"=$1
 r:"^Casualties \((.+)\): (.+)$"=Kuolonuhreja ($1)：$2
-r:"^CELESTIAL BODY: (.+?)$"==TAIVAANKAPPALE: $1
 r:"^Challenge Moon (.+?) Results$"=Haastekuun $1 Tulokset
 r:"^Days on the job: (.+?)\nScrap value collected: (.+?)\nDeaths: (.+?)\nSteps taken: (.+?)$"=Työpäiviä: $1\nRomua kerätty: $2\nKuolemia: $3\nAskelia otettu: $4
 r:"^DEADLINE:\n([0,2-9]) Days$"=TAKARAJA:\n$1 Päivää
-r:"^DEADLINE:\n1 Days$"=TAKARAJA:\n1 Päivä
 r:"^Do you want to delete File (.+)\?$"=Haluatko poistaa Tiedoston $1
 r:"^DUE: (\$[0-9]+)$"=VELKA: $1
 r:"^File ([0-9]+)$"=Tiedosto $1
 r:"^Found journal entry: (.+)$"=Poimittu lokikirjaus: $1
-r:"^Jagged and weathered terrain.(.*)"=Rosoinen ja sään pieksemä maaperä.$1
 r:"^Kick out (.+)\?$"=Potki $1?
 r:"^MONITORING: (.+)$"=VALVOTAAN: $1
 r:"^Overtime bonus: (.+)$"=Yliaikalisä: $1
+r:"^Picking lock: (.+?) sec.$"=Tiirikoidaan lukkoa: $1 s
 r:"^Press (.+?) to talk.$"=Paina $1 puhuaksesi.
 r:"^PROFIT QUOTA:\n(\$[0-9]+) / (\$[0-9]+)$"=KIINTIÖ:\n$1 / $2
 r:"^Random seed: ([0-9]+)$"=Satunnainen siemen: $1
@@ -61,21 +60,19 @@ r:"^Welcome! Version ([0-9]+) is out now.\nOthers must update their game to play
 r:"^Welcome to\n(.+?)$"=Tervetuloa\nkuulle\n$1
 
 
-# Special regex
+## Special regex
 
-sr:"^(.+?) collected!$"=$1 kerätty!
 sr:"^Cause of death: (.+)$"=Kuolinsyy: $1
-sr:"^CELESTIAL BODY: (.+?)$"=TAIVAANKAPPALE: $1
+sr:"^CELESTIAL BODY: (.+)$"=TAIVAANKAPPALE: $1
 sr:"^Drop (.+?): \[G\]$"=Pudota $1: [G]
 sr:"^Notes: \n* (.+)\n* (.+)\n* (.+)\n* (.+)$"=Muistiinpanot: \n* $1\n* $2\n* $3 \n* $4
 sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.*)$"=Kiertää: $1\nKANTA: $2\nOLOSUHTEET: $3\nELÄIMISTÖ: $4\n$5
 sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\nWeather: (.+?)$"=Kiertää: $1\nKANTA: $2\nOLOSUHTEET: $3\nELÄIMISTÖ: $4\nSää: $5
-sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)$"=Kiertää: $1\nKANTA: $2\nOLOSUHTEET: $3\nELÄIMISTÖ: $4
 sr:"^POPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.*)$"=KANTA: $1\nOLOSUHTEET: $2\nELÄIMISTÖ: $3\n$4
 sr:"^POPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)$"=KANTA: $1\nOLOSUHTEET: $2\nELÄIMISTÖ: $3
 
 
-# Sell screen
+## Sell screen
 
 sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n
 sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n

@@ -1,3 +1,8 @@
+## Version 1.3.2
+- Translated the new log entry added in v47.
+- Reviewed the translations thoroughly.
+- General fixes to translations.
+
 ## Version 1.3.1
 - Removed the [NewTerminal](https://thunderstore.io/c/lethal-company/p/Aavild/NewTerminal/) mod dependency.
   * Terminal is now translated solely via this mod's patcher file.
