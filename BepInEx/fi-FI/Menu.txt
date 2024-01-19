@@ -27,7 +27,7 @@
 > Host=> Luo peli
 > Invite friends=> Kutsu ystäviä
 > Join a crew=> Liity miehistöön
-> Join LAN session=> Liity LAN-sessioon
+> Join LAN session=> Liity LAN-istuntoon
 > LAN=> LAN
 > Mod Settings=> Modiasetukset
 > Online=> Online
@@ -48,16 +48,13 @@ Arachnophobia Mode=Araknofobiatila
 Autosaving...=Automaatti-\ntallennetaan...
 BACK=PALAA
 Back=Palaa
-Backspace=Askelpalautin
 Cancel=Peruuta
 CONFIRM=HYVÄKSY
 Confirm=Hyväksy
 Confirm changes?=Hyväksy muutokset?
 CONTROLS=OHJAUKSET
-Cosmetics Enabled:=Kosmetiikat Päällä:
 Credits=Lopputekstit
 CREW:=MIEHISTÖ:
-Crew Size:=Miehistön Koko:
 Deceased=Kuollut
 Delete=Poista
 DISCARD=HYLKÄÄ
@@ -89,14 +86,11 @@ Lobby is full!=Aula on täynnä!
 Local-only=Vain paikallinen
 Look sensitivity:=Hiiren herkkyys:
 Master volume:=Äänenvoimakkuus:
-Max players...=Maksimipelaajat...
-Max players (16)...=Maksimipelaajat (16)...
 Maximized window=Maksimoitu ikkuna
 MODE: Push to talk=TILA: Paina puhuaksesi
 MODE: Voice activation=TILA: Ääniaktivoitu
 Name your server...=Nimeä palvelimesi...
 No available servers to join.=Ei palvelimia saatavilla.
-Notice: High max player counts\nmay cause lag.=Huomautus: Korkeat maksimipelaajamäärät voivat aiheuttaa viivettä.
 Online=Online
 Option A=Vaihtoehto A
 PRIVATE means you must send invites through Steam for players to join.=YKSITYINEN tarkoittaa, että kutsut täytyy lähettää Steamin kautta pelaajien liittymiseksi.
@@ -116,11 +110,11 @@ Sort: Similar rank=Järjestä: Vastaava sija
 Sort: Top 20=Järjestä: Top 20
 Sort: worldwide=Järjestä: kaikki
 Started server, joining...=Palvelin käynnistetty, liitytään...
-Tab=Sarkain
 The file will NOT save! Your ship must be in orbit.=Tiedostoa EI tallenneta! Aluksesi on oltava kiertoradalla.
 The host has not loaded or has already landed their ship.=Isäntä ei ole latautunut peliin tai on jo laskeutunut aluksellaan.
 The server host disconnected.=Palvelimen isäntä poistui.
 The server is full!=Palvelin on täynnä!
+This is the weekly challenge moon.\nYou have one day to make as much profit as possible.=Tämä on viikottainen haastekuu.\nSinulla on yksi päivä saada mahdollisimman paljon tuottoa.
 Uncapped=Rajoittamaton
 Unconfirmed changes!=Hyväksymättömiä muutoksia!
 Use monitor (V-Sync)=Monitori (V-Sync)
@@ -133,17 +127,16 @@ Window=Ikkuna
 Windowed fullscreen=Koko näytön ikkuna
 With challenge moon=Haastekuulla
 Would you like to leave the game?=Haluaisitko poistua pelistä?
-yeah you should be good now lol=Noniin, nyt näyttää hyvältä
 You are in LAN mode. When allowing remote connections through LAN, please ensure you have sufficient network security such as a firewall and/or VPN.=Olet LAN-tilassa. Sallittaessa etäyhteydet LAN-verkon kautta, varmista, että sinulla on riittävä verkkoturva, kuten palomuuri ja/tai VPN.
 
 
 ## Keybinds
 
+Backspace=Askelpalautin
 Button East=Oikea Painike
 Button North=Yläpainike
 Button South=Alapainike
 Button West=Vasen Painike
-Clap=Taputa
 Crouch=Mene kyykkyyn
 D-Pad/Down=Suunta-alusta/Alas
 D-Pad/Left=Suunta-alusta/Vasen
@@ -151,7 +144,6 @@ D-Pad/Right=Suunta-alusta/Oikea
 D-Pad/Up=Suunta-alusta/Ylös
 Dance=Tanssi
 Down Arrow=Alanuoli
-Emote Wheel=Toimintopyörä
 Enable chat=Aktivoi chatti
 Interact=Vuorovaikuta
 Item drop=Pudota esine
@@ -177,7 +169,6 @@ Left Stick Press=Vasemman Sauvan Painike
 Left System=Vasen Järjestelmä
 Left Trigger=Vasen Liipaisin
 Jump=Hyppää
-Middle Finger=Keskisormi
 Move back=Kävele taaksepäin
 Move forward=Kävele eteenpäin
 Move left=Kävele vasemmalle
@@ -197,17 +188,15 @@ Right Stick/Up=Vasen Sauva/Ylös
 Right Stick Press=Oikean Sauvan Painike
 Right System=Oikea Järjestelmä
 Right Trigger=Oikea Liipaisin
-Salute=Tervehdi
 Scroll/Down=Rulla/alas
 Scroll/Up=Rulla/ylös
 Shift=Vaihto
-Shy=Ujo
 Space=Välilyönti
 Sprint=Juokse
 Store furniture=Säilö huonekalu
 Submit chat=Lähetä viesti
+Tab=Sarkain
 Turn furniture=Käännä huonekalua
-Twerk=Twerkkaa
 Up Arrow=Ylänuoli
 Walk back=Kävele taaksepäin
 Walk forward=Kävele eteenpäin
@@ -215,6 +204,54 @@ Walk left=Kävele vasemmalle
 Walk right=Kävele oikealle
 
 
+## Boot up
+
+      BG IG, A System-Act Ally\n      Copyright (C) 2084-2108, Halden Electronics Inc.\n\nCPU Type      :     BORSON 300 CPU at 2500 MHz\nMemory test  :      4521586K OK\n\nBoot Distributioner Application v0.04\nCopyright (C) 2107 Distributioner\n    Detecting Sting X ROM\n    Detecting Web LNV Extender\n    Detecting Heartbeats OK\n\n\nUTGF Device Listening...\n\nBody   ID   Neural   Device Class\n________________________________________\n\n2      52   Jo152       H515\n2      52   Sa5155      H515\n2      52   Bo75        H515\n2      52   Eri510      H515\n1      36   Ell567      H515\n1      36   Jos912      H515\n0\n=      BG IG, Järjestelmäasetuksen Tukija\n      Copyright (C) 2084-2108, Halden Electronics Oy\n\nSuoritintyyppi  :     BORSON 300 -suoritin (2500 MHz)\nMuistitesti     :     4521586K OK\n\nKäynnistyksen Jakelijasovellus v0.04\nCopyright (C) 2107 Jakelija\n    Havaitaan X ROM -solutus\n    Havaitaan Verkon LNV-laajennin\n    Havaitaan Sydämenlyöntejä OK\n\n\nUTGF-laite Kuuntelee...\n\nRyhmä  ID   Hermosto   Laiteluokka\n________________________________________\n\n2      52   Jo152        H515\n2      52   Sa5155       H515\n2      52   Bo75         H515\n2      52   Eri510       H515\n1      36   Ell567       H515\n1      36   Jos912       H515\n0\n
+
+
 ## Credits
 
 r:"(?s)^Thanks to PuffoThePufferfish and Blueray901165 for helping shape this game. They were the closest with it through the entire process, helping me test and improve it every step of the way.\n\nThanks to my patrons who have generously supported me throughout this game's long and sometimes-rocky development:(.*)Thanks to Zenonclaw for modelling the shovel and the old elevator, which was scrapped long ago but still used for its parts.\n\nThanks to ZedFox for one of the boombox tracks \(the good one\).\n\nThanks to youreashotgun for the snare flea TV channel.\n\nAnd thanks to Noah, Seth, Null, Sam, Zenonclaw, Zedfox, and Joseph for helping playtest throughout early development.(.*)Sound effects from Freesound.org, licensed under CC-BY \(Attribution\). Thank you:(.*)$"=Kiitokset PuffoThePufferfishille ja Blueray901165:lle heidän avustansa tämän pelin muovaamisessa. He olivat sitä lähimpänä koko prosessin ajan, auttaen minua testaamaan ja parantamaan sitä sen jokaisessa vaiheessa.\n\nKiitokset tukijoilleni, jotka ovat anteliaasti tukeneet minua pelin pitkän ja toisinaan kivisen kehityksen lävitse:$1Kiitokset Zenonclawille lapion ja vanhan hissin mallintamisesta, joista jälkimmäinen hylättiin jo aikoja sitten, mutta jonka osia edelleen käytettiin.\n\nKiitokset ZedFoxille yhdestä mankan kappaleesta (siitä hyvästä).\n\nKiitokset youreashotgunille ansakirpun TV-kanavasta.\n\nJa kiitokset Noahille, Sethille, Nullille, Samille, Zenonclawille, ZedFoxille, ja Josephille pelin testaamisesta läpi sen aikaisen kehityksen.$2Ääniefektit Freesound.orgista, CC-BY lisensoitu (Nimeäminen). Kiitokset:$3
+
+
+## Mods
+
+### BiggerLobby
+
+Max players...=Maksimipelaajat...
+Max players (16)...=Maksimipelaajat (16)...
+Notice: High max player counts\nmay cause lag.=Huomautus: Korkeat maksimipelaajamäärät voivat aiheuttaa viivettä.
+yeah you should be good now lol=Noniin, nyt näyttää hyvältä
+
+
+### MoreEmotes
+
+(Controller)=(Ohjain)
+(Keyboard only)=(Vain näppäimistö)
+
+> More Emotes=             > More Emotes -asetukset
+
+(Read Only) Ignores all ingame saved settings and instead uses the config file=(Kirjoitussuojattu) Jättää\npelinsisäisesti tallennetut\nasetukset huomiotta ja käyttää\nsen sijaan asetustiedostoa
+Clap=Taputa
+Emote Wheel=Toimintopyörä
+EMPTY=TYHJÄ
+Inventory Check=Tavaraluettelotarkistus
+Middle Finger=Keskisormi
+Prevents some emotes from performing while holding items/scrap=Estää joidenkin toimintojen\nsuorittamisen esineitä/romua\npideltäessä
+Prisyadka=Ripaska
+Quick Emotes=Pikatoiminnot
+Remap=Muuta
+Salute=Tervehdi
+Settings=Asetukset
+Shy=Ujo
+Sign=Kyltti
+The Griddy=Griddy
+Twerk=Twerkkaa
+Use Config File=Käytä Asetustiedostoa
+WAITING FOR KEY=ODOTETAAN NÄPPÄINTÄ
+
+
+### MoreCompany
+
+Cosmetics Enabled:=Kosmetiikat Päällä:
+Crew Size:=Miehistön Koko:

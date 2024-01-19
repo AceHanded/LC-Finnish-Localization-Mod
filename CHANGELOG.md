@@ -1,3 +1,8 @@
+## Version 1.3.3
+- Translated the contents of the [More Emotes](https://thunderstore.io/c/lethal-company/p/Sligili/More_Emotes/) mod.
+- Added the option to turn terminal translations off in the config file.
+- General fixes to translations.
+
 ## Version 1.3.2
 - Translated the new log entry added in v47.
 - Reviewed the translations thoroughly.

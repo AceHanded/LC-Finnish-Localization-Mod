@@ -1,8 +1,5 @@
 # Regex
 
-r:"(?s)^Grab boombox: (.+?)\n([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Poimi mankka: $1\nÄänenvoimakkuus $2\nNosta äänenvoimakkuutta: $3\nLaske äänenvoimakkuutta: $4
-r:"(?s)^Television: (.+?)\n([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Televisio: $1\nÄänenvoimakkuus $2\nNosta äänenvoimakkuutta: $3\nLaske äänenvoimakkuutta: $4
-r:"(?s)^Record player: (.+?)\n([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Levysoitin: $1\nÄänenvoimakkuus $2\nNosta äänenvoimakkuutta: $3\nLaske äänenvoimakkuutta: $4
 r:"(?s)^(.*)Most profitable(.*)$"=$1Tuottoisin palkansaaja.$2
 r:"(?s)^(.*)Sustained the most injuries.(.*)$"=$1Kesti eniten vahinkoa.$2
 r:"(?s)^(.*)The laziest employee.(.*)$"=$1Laiskin palkansaaja.$2
@@ -16,14 +13,12 @@ r:"^(.*) FPS$"=$1 FPS
 r:"^(.*)\nAM"=$1\nAM
 r:"^(.*)\nPM"=$1\nPM
 r:"^(.*)\[MODDED\](.+?)$"=$1[MODATTU]$2
-r:"^(.*)SHIP: (\$[0-9]+)$"=$1ALUS: $2
 r:"^(.+?)-([0-9]+)$"=$1-$2
 r:"^(.+?) collected!$"=$1 kerätty!
 r:"^([0,2-9]+) casualties: (\-[0-9]+\%)\n\(1 bodies recovered\)$"=$1 kuolonuhria: $2\n(1 ruumis noukittu)
 r:"^([0,2-9]+) casualties: (\-[0-9]+\%)\n\(([0,2-9]+) bodies recovered\)$"=$1 kuolonuhria: $2\n($3 ruumista noukittu)
 r:"^([0-9]+) EXP$"=$1 XP
 r:"^([0-9]+) lb$"=$1 lb
-r:"^([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Äänenvoimakkuus $1\nNosta äänenvoimakkuutta: $2\nLaske äänenvoimakkuutta: $3
 r:"^([0,2-9]) Days Left$"=$1 Päivää
 r:"^(\$[0-9]+)\nDays: ([0-9]+)$"=$1\nPv: $2
 r:"^(\$[0-9]+) Collected$"=$1 Kerätty
@@ -41,7 +36,6 @@ r:"^DEADLINE:\n([0,2-9]) Days$"=TAKARAJA:\n$1 Päivää
 r:"^Do you want to delete File (.+)\?$"=Haluatko poistaa Tiedoston $1
 r:"^DUE: (\$[0-9]+)$"=VELKA: $1
 r:"^File ([0-9]+)$"=Tiedosto $1
-r:"^Found journal entry: (.+)$"=Poimittu lokikirjaus: $1
 r:"^Kick out (.+)\?$"=Potki $1?
 r:"^MONITORING: (.+)$"=VALVOTAAN: $1
 r:"^Overtime bonus: (.+)$"=Yliaikalisä: $1
@@ -49,7 +43,6 @@ r:"^Picking lock: (.+?) sec.$"=Tiirikoidaan lukkoa: $1 s
 r:"^Press (.+?) to talk.$"=Paina $1 puhuaksesi.
 r:"^PROFIT QUOTA:\n(\$[0-9]+) / (\$[0-9]+)$"=KIINTIÖ:\n$1 / $2
 r:"^Random seed: ([0-9]+)$"=Satunnainen siemen: $1
-r:"^SHIP: (\$ [0-9]+)$"=$ALUS: $2
 r:"^Tell autopilot ship to leave early : (.+?)\(Hold\)$"=Määritä autopilotti lähtemään aikaisin : $1（Paina pohjassa）
 r:"^TIP!: Hold (.+) to vote for the autopilot ship to leave early.$"=Vinkki!: Paina $1 pohjassa äänestääksesi autopilotin aikaisesta lähdöstä.
 r:"^TOTAL: (\$[0-9]+)$"=SUMMA: $1
@@ -65,6 +58,7 @@ r:"^Welcome to\n(.+?)$"=Tervetuloa\nkuulle\n$1
 sr:"^Cause of death: (.+)$"=Kuolinsyy: $1
 sr:"^CELESTIAL BODY: (.+)$"=TAIVAANKAPPALE: $1
 sr:"^Drop (.+?): \[G\]$"=Pudota $1: [G]
+sr:"^Found journal entry: (.+)$"=Poimittu lokikirjaus: $1
 sr:"^Notes: \n* (.+)\n* (.+)\n* (.+)\n* (.+)$"=Muistiinpanot: \n* $1\n* $2\n* $3 \n* $4
 sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.*)$"=Kiertää: $1\nKANTA: $2\nOLOSUHTEET: $3\nELÄIMISTÖ: $4\n$5
 sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\nWeather: (.+?)$"=Kiertää: $1\nKANTA: $2\nOLOSUHTEET: $3\nELÄIMISTÖ: $4\nSää: $5
@@ -86,3 +80,27 @@ sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x
 sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n$16 (x$17) : $18 \n$19 (x$20) : $21 \n$22 (x$23) : $24 \n$25 (x$26) : $27 \n$28 (x$29) : $30 \n
 
 # sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n$16 (x$17) : $18 \n$19 (x$20) : $21 \n$22 (x$23) : $24 \n$25 (x$26) : $27 \n$28 (x$29) : $30 \n
+
+
+## Mods
+
+### MoreEmotes
+
+r:"^(.+) Cancel$"=$1 Hylkää
+r:"^(.+) Page ([0-9]+)/([0-9]+) (.+)$"=$1 Sivu $2/$3 $4
+r:"^(.+) Submit$"=$1 Valmis
+r:"^CHARACTERS LEFT: (.+)$"=MERKKEJÄ JÄLJELLÄ: $1
+r:"^Line Break (.+)$"=Rivinvaihto $1
+
+
+### ObjectVolumeController
+
+r:"(?s)^Grab boombox: (.+?)\n([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Poimi mankka: $1\nÄänenvoimakkuus $2\nNosta äänenvoimakkuutta: $3\nLaske äänenvoimakkuutta: $4
+r:"(?s)^Television: (.+?)\n([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Televisio: $1\nÄänenvoimakkuus $2\nNosta äänenvoimakkuutta: $3\nLaske äänenvoimakkuutta: $4
+r:"(?s)^Record player: (.+?)\n([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Levysoitin: $1\nÄänenvoimakkuus $2\nNosta äänenvoimakkuutta: $3\nLaske äänenvoimakkuutta: $4
+r:"^([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Äänenvoimakkuus $1\nNosta äänenvoimakkuutta: $2\nLaske äänenvoimakkuutta: $3
+
+
+### ShipLoot
+
+r:"^SHIP: (\$[0-9]+)$"=ALUS: $1

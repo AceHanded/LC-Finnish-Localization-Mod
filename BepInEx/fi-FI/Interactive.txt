@@ -10,7 +10,6 @@
 [Wait for ship to land]=[Odota aluksen laskeutumista]
 
 r:"^Access terminal : (.+)$"=Avaa terminaali : $1
-r:"^Beam out : (.+)$"=Teleporttaa ulos : $1
 r:"^Beam up : (.+)$"=Teleporttaa : $1
 r:"^Charge item : (.+)$"=Lataa esine : $1
 r:"^Climb : (.+)$"=Kiipeä : $1
@@ -86,4 +85,11 @@ r:"^Use key: (.+)$"=Käytä avainta: $1
 r:"^Use ladder : (.+)$"=Käytä tikapuita : $1
 r:"^Use remote : (.+)$"=Käytä kauko-ohjainta : $1
 r:"^Walk : (.+)$"=Kävele : $1
-r:"^Wear mask: (.+)$"=Pue naamio: $1
+r:"^Wear mask : (.+)$"=Pue naamio : $1
+
+
+## Mods
+
+### GeneralImprovements
+
+r:"^Beam out : (.+)$"=Teleporttaa ulos : $1

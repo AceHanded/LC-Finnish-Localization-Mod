@@ -2,7 +2,6 @@
 
 (Cannot hold until ship has landed)=(Ei voida pidellä ennen aluksen laskeutumista)
 (Dead)=(Kuollut)
-(Note that if someone doesnt show up on the list, they may not have LC_API installed)=(Huom. jos joku pelaaja ei ole listalla, LC_API ei luultavasti ole asennettuna)
 (Radar booster)=(Tutkakiihdytin)
 (Requires battery-powered item)=(Vaatii akulla toimivan esineen)
 (See how you compare to friends in the main menu leaderboard!)=(Katso kuinka vertaudut ystäviisi päävalikon pistetaulukosta!)
@@ -15,7 +14,6 @@ CRITICAL INJURY=KRIITTINEN VAMMA
 DEADLINE:\n1 Days=TAKARAJA:\n1 Päivä
 DEADLINE:\n NOW=TAKARAJA:\n NYT
 DOOR HYDRAULICS:=OVIHYDRAULIIKAT:
-Grabbing all connected users mod list\nCheck the log for results!!=Kerätään kaikkien yhdistäneiden käyttäjien modilistat\nKatso loki nähdäksesi tulokset!!
 HANDS FULL=KÄDET TÄYNNÄ
 HAZARD LEVEL:=VAARA-ASTE:
 Inventory full!=Tavaraluettelo täynnä!
@@ -91,6 +89,22 @@ You did not meet the profit quota before the deadline.=Et täyttänyt kiintiöt�
 Your rank:=Sijasi:
 
 
+## Logs
+
+'Smells here! - Aug 24='Smells here! - Elo 24
+'Swing of things - Aug 27='Swing of things - Elo 27
+'Shady - Aug 31='Shady - Elo 31
+'Sound behind the wall - Sep 4='Sound behind the wall - Syys 4
+'Goodbye - Sep 7='Goodbye - Syys 7
+'Screams - Sep 13='Screams - Syys 13
+'Golden planet - Aug ??='Golden planet - Elo ??
+'Idea - Sep 18='Idea - Syys 18
+'Nonsense - Sep 27='Nonsense - Syys 27
+'Hiding - Sep 30='Hiding - Syys 30
+'Real Job - Oct 1='Real Job - Loka 1
+'Desmond - Oct 15='Desmond - Loka 15
+
+
 ## Scanner
 
 Brake lever=Jarruvipu
@@ -116,16 +130,12 @@ Useful info!=Kelpoa tietoa!
 ## Side notifications
 
 ALERT!=HUOMIO!
-Asking all other players for installed mods..=Haetaan asennettuja modeja kaikilta muilta pelaajilta..
-Check the logs for more detailed results.\n=Tarkista lokit saadaksesi tarkempia tietoja.\n
 Drop your metallic items now! A static charge has been detected. You have seconds left to live.=Pudota metalliesineesi nyt! Staattinen varaus havaittu. Sinulla on sekunteja elinaikaa.
 Got scrap!=Romua kerätty!
 HALT!=SEIS!
 Item collected!=Esine kerätty!
 Items missed!=Esineet menetetty!
-Mod List:=Modilista:
 The vehicle returned with your purchased items. Our delivery fee cannot be refunded.=Kulkuneuvo palasi ostamienne esineiden kanssa. Toimitusmaksuamme ei voida palauttaa.
-This is the weekly challenge moon.\nYou have one day and one attempt to make as much profit as possible.=Tämä on viikottainen haastekuu.\nSinulla on yksi päivä ja yksi yritys saada mahdollisimman paljon tuottoa.
 TIP:=VINKKI:
 To sell, use the terminal to route the ship to the company building.=Esineiden myymiseksi, suuntaa terminaalin avulla kohti niiden myyntipaikkaa.
 Trying again?=Kokeilemassa uudestaan?
@@ -143,3 +153,20 @@ Change: Hazard suit=Vaihda: Suojapuku
 Change: Pajama suit=Vaihda: Yöpuku
 Change: Purple Suit=Vaihda: Violetti puku
 Change suit=Vaihda puku
+
+
+## Mods
+
+### LC_API
+
+(Note that if someone doesnt show up on the list, they may not have LC_API installed)=(Huom. jos joku pelaaja ei ole listalla, LC_API ei luultavasti ole asennettuna)
+
+Asking all other players for installed mods..=Haetaan asennettuja modeja kaikilta muilta pelaajilta..
+Check the logs for more detailed results.\n=Tarkista lokit saadaksesi tarkempia tietoja.\n
+Grabbing all connected users mod list\nCheck the log for results!!=Kerätään kaikkien yhdistäneiden käyttäjien modilistat\nKatso loki nähdäksesi tulokset!!
+Mod List:=Modilista:
+
+
+### MoreEmotes
+
+Enter Text...=Syötä Tekstiä...
