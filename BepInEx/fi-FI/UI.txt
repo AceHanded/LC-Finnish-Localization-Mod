@@ -91,18 +91,18 @@ Your rank:=Sijasi:
 
 ## Logs
 
-'Smells here! - Aug 24='Smells here! - Elo 24
-'Swing of things - Aug 27='Swing of things - Elo 27
-'Shady - Aug 31='Shady - Elo 31
-'Sound behind the wall - Sep 4='Sound behind the wall - Syys 4
-'Goodbye - Sep 7='Goodbye - Syys 7
-'Screams - Sep 13='Screams - Syys 13
-'Golden planet - Aug ??='Golden planet - Elo ??
-'Idea - Sep 18='Idea - Syys 18
-'Nonsense - Sep 27='Nonsense - Syys 27
-'Hiding - Sep 30='Hiding - Syys 30
-'Real Job - Oct 1='Real Job - Loka 1
-'Desmond - Oct 15='Desmond - Loka 15
+'Smells here! - Aug 24='Smells here! - 24. elo
+'Swing of things - Aug 27='Swing of things - 27. elo
+'Shady - Aug 31='Shady - 31. elo
+'Sound behind the wall - Sep 4='Sound behind the wall - 4. syys
+'Goodbye - Sep 7='Goodbye - 7. syys
+'Screams - Sep 13='Screams - 13. syys
+'Golden planet - Aug ??='Golden planet - ??. elo
+'Idea - Sep 18='Idea - 18. syys
+'Nonsense - Sep 27='Nonsense - 27. syys
+'Hiding - Sep 30='Hiding - 30. syys
+'Real Job - Oct 1='Real Job - 1. loka
+'Desmond - Oct 15='Desmond - 15. loka
 
 
 ## Scanner
