@@ -1,3 +1,7 @@
+## Version 1.4.1
+- Updated dependencies.
+  * [XUnity](https://thunderstore.io/c/lethal-company/p/Hayrizan/XUnity_AutoTranslator/) must now be seperately installed, if you have not done so before.
+
 ## Version 1.4.0
 - Added translations for content added in game version 50.
 - General fixes to translations.
