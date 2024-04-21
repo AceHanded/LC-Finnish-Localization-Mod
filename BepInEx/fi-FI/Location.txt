@@ -1,11 +1,14 @@
 ﻿# Location
 
+20 Adamance=Järkkymätön-20
 21 Offense=Hyökkäys-21
 220 Assurance=Vakuuttelu-220
 31 March=Rajamaa-31
 41 Experimentation=Kokeilu-41
+5 Embrion=Alkio-5
 56 Vow=Lupaus-56
 61 March=Rajamaa-61
+68 Artifice=Metku-68
 7 Dine=Lounastus-7
 71 Gordion=Gorganzola-71
 8 Titan=Titaani-8
@@ -23,15 +26,21 @@ Stormy=Myrskyinen
 Unknown=Tuntematon
 
 A competitive ecosystem supports aggressive lifeforms.=Kilpailullinen ekosysteemi tukee aggressiivisia elämänmuotoja.
+A landscape of deep valleys and mountains.=Syvien laaksojen ja vuorien täyttämä maisema.
 Arid. Thick haze, worsened by industrial artifacts.=Kuiva. Paksu usva, jota teolliset artefaktit pahentavat.
-Dangerous entities have been rumored to take residence in the vast network of tunnels.=Vaarallisten entiteettien on huhuiltu asustavan laajassa tunneliverkostossa.
+Dangerous entities have been rumored to take residence in the vast network of tunnels.=Vaarallisten entiteettien huhutaan asuvan laajassa tunneliverkostossa.
+Desolate, made of amethyst.=Autio, tehty ametistista.
 Dominated by a few species.=Muutamien lajien vallitsema.
 Ecosystem supports territorial behaviour.=Ekosysteemi tukee reviirikäyttäytymistä.
+Embrion is devoid of biological life.=Alkio on täysin vailla biologista elämää.
 Expansive. Constant rain.=Kasvuhakuinen. Jatkuvaa sadetta.
 Frozen, rocky. Its planet orbits a white dwarf star.=Jäätynyt, kivinen. Sen planeetta kiertää valkoista kääpiötähteä.
-Frozen, rocky. This moon was mined for resources. It's easy to get lost here.=Jäätynyt, kivinen. Louhittiin resurssiensa vuoksi. Tänne on helppo eksyä.
-Humid. Rough terrain. Teeming with plant-life.=Kostea. Vaikea maasto. Kuhisee kasvillisuudella.
+Frozen, rocky. This moon was mined for resources. It's easy to get lost here.=Jäätynyt, kivinen. Louhittiin resurssien vuoksi.
+Home to a lively, diverse ecosystem of smaller-sized omnivores.=Koti pienempien kaikkiruokaisten eloisalle, monipuoliselle ekosysteemille.
+Humid. Rough terrain. Teeming with plant-life.=Kostea. Vaikea maasto. Kuhisee kasvielämällä.
 Jagged and weathered terrain.=Rosoinen ja sään pieksemä maaperä.
 No land masses. Continual storms.=Ei maamassaa. Jatkuvia myrskyjä.
+Rumored active machinery left behind.=Huhujen mukaan aktiivista koneistoa on jätetty taakse.
 Unlikely for complex life to exist=Kompleksin elämän olemassaolo epätodennäköistä.
+Waning forests. Abandoned facilities littered across the landscape.=Hupenevia metsiä. Hylättyjä laitoksia täynnä.
 Where the Company resides.=Yhtiön toimipaikka.

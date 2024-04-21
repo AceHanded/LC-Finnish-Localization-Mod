@@ -1,3 +1,7 @@
+## Version 1.4.0
+- Added translations for content added in game version 50.
+- General fixes to translations.
+
 ## Version 1.3.4
 - Fixed an issue, which caused a bunch of terminal translations to become messed up.
 

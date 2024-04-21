@@ -148,6 +148,8 @@ You have landed in an eclipse. Exercise caution!=Olet laskeutunut pimennykseen. 
 
 ## Suits
 
+Change: Bee Suit=Vaihda: Mehiläispuku
+Change: Bunny Suit=Vaihda: Pupupuku
 Change: Green suit=Vaihda: Vihreä puku
 Change: Hazard suit=Vaihda: Suojapuku
 Change: Pajama suit=Vaihda: Yöpuku
