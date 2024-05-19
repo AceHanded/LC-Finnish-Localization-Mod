@@ -1,12 +1,12 @@
 {
     "name": "Lethal_Company_Finnish_Localization",
-    "version_number": "1.4.1",
+    "version_number": "1.4.2",
     "website_url": "https://github.com/AceHanded/LC-Finnish-Localization-Mod",
     "description": "A Finnish localization / translation mod for Lethal Company.",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100",
         "Hayrizan-XUnity_AutoTranslator-5.3.0",
-        "no00ob-LCSoundTool-1.4.0",
-        "Clementinise-CustomSounds-2.2.0"
+        "no00ob-LCSoundTool-1.5.1",
+        "Clementinise-CustomSounds-2.3.2"
     ]
 }

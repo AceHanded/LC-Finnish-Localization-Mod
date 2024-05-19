@@ -1,3 +1,7 @@
+## Version 1.4.2
+- Replaced WAV files with OGG files to conserve mod size.
+- Added necessary config files when installing the mod.
+
 ## Version 1.4.1
 - Updated dependencies.
   * [XUnity](https://thunderstore.io/c/lethal-company/p/Hayrizan/XUnity_AutoTranslator/) must now be seperately installed, if you have not done so before.
