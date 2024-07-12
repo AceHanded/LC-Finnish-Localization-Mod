@@ -84,6 +84,7 @@ Toy robot=Robottilelu
 V-type engine=V-tyypin moottori
 Walkie-talkie=Radiopuhelin
 Wedding ring=Vihkisormus
+Weed killer=Rikkaruohomyrkky
 Whoopie cushion=Pierutyyny
 Yield sign=Kolmiomerkki
 Zap gun=Lamautin

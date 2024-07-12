@@ -48,13 +48,17 @@ Warning! No response from crew, which has not returned. Emergency code activated
 Abandoned=Hylkääminen
 Blast=Räjähdys
 Bludgeoning=Nuijinta
+Burning=Palaminen
 Crushing=Murskaantuminen
 Drowning=Hukkuminen
 Electrocution=Sähköisku
+Fan=Tuuletin
 Gravity=Painovoima
 Gunshots=Laukaukset
 Kicking=Potkiminen
 Mauling=Raatelu
+Snipped=Leikkaaminen
+Stabbing=Puukottaminen
 Strangulation=Kuristaminen
 Suffocation=Tukehtuminen
 Unknown=Tuntematon

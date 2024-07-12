@@ -1,6 +1,7 @@
 ﻿# Creature
 
 Baboon hawk=Paviaanihaukka
+Barber=Parturi
 Bracken=Sananjalka
 Bunker spider=Bunkkerihämähäkki
 Butler=Hovimestari
@@ -15,8 +16,9 @@ Hoarding bug=Rohmujuuta
 Hygrodere=Hygrolima
 Jeb=Jakke
 Jester=Narri
+Kidnapper fox=Sieppaajakettu
 Landmine=Maamiina
-Manticoil=Vyyhtisirkka
+Manticoil=Vyyhtisirkku
 Masked=Naamioitu
 Mask Hornets=Naamioherhiläinen
 Nutcracker=Pähkinänsärkijä
@@ -27,3 +29,4 @@ Spore lizard=Itiölisko
 Thumper=Tömistelijä
 Tulip Snake=Tulppaanikäärme
 Turret=Tykkitorni
+Vain Shroud=Suonipensas
