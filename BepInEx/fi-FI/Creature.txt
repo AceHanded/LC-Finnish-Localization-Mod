@@ -18,6 +18,7 @@ Jeb=Jakke
 Jester=Narri
 Kidnapper fox=Sieppaajakettu
 Landmine=Maamiina
+Maneater=Ihmissyöjä
 Manticoil=Vyyhtisirkku
 Masked=Naamioitu
 Mask Hornets=Naamioherhiläinen

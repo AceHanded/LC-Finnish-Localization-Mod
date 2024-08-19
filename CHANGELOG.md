@@ -1,3 +1,7 @@
+## Version 1.4.4
+- Added translations for content added in game version 60.
+- General fixes to translations.
+
 ## Version 1.4.3
 - Added translations for content added in game version 55.
 - General fixes to translations.

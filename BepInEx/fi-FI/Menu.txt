@@ -106,6 +106,7 @@ Servers=Palvelin-\nluettelo
 Server name:=Palvelimen nimi:
 Some of your save files may not be compatible with version 50 and may be corrupted if you play them.=Jotkin tallennustiedostosi eivät ole yhteensopivia version 50 kanssa, ja saattavat olla korruptoituneita, jos yrität pelata niitä.
 Some of your save files may not be compatible with version 55 and may be corrupted if you play them.=Jotkin tallennustiedostosi eivät ole yhteensopivia version 55 kanssa, ja saattavat olla korruptoituneita, jos yrität pelata niitä.
+Some of your save files may not be compatible with version 60 and may be corrupted if you play them.=Jotkin tallennustiedostosi eivät ole yhteensopivia version 60 kanssa, ja saattavat olla korruptoituneita, jos yrität pelata niitä.
 Sort: far=Järjestä: kaukana
 Sort: Friends=Järjestä: Ystävät
 Sort: near=Järjestä: lähellä
