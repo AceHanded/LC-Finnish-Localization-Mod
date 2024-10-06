@@ -6,6 +6,7 @@ Apparatice=Aparaatti
 Apparatus=Aparaatti
 Bee hive=Mehiläispesä
 Bell=Kello
+Belt bag=Vyölaukku
 Big bolt=Suuri pultti
 Body=Ruumis
 Boombox=Mankka

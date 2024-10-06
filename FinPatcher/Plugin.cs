@@ -49,6 +49,8 @@ internal class Dictionaries {
         { "ViewInsideShipCam 1", "Vaihdetaan tutkakameraa.\n\n" },
         { "WelcomeNode", "BG IG, Järjestelmäpohjainen Ystävä\nCopyright (C) 2084-2108, Halden Electronics Inc.\nYhtiön Myöntämä.\n\n\n\nBios pro FORTUNE-9 87.7/10MHZ SYSTEM\n\nTämänhetkinen päivämäärä on Ti 3-7-2532\nTämänhetkinen aika on 8:03:32.15\n\nOle hyvä ja syötä suosikkieläimesi: " },
         { "WelcomeNode2", "\nOle hyvä ja kuvaile rooliasi tiimissä: " },
+        { "buyBeltBag", "Olet pyytänyt tilata taktisia vyölaukkuja. Määrä: [variableAmount]. \nEsineiden kokonaishinta: [totalCost].\n\nOle hyvä ja hyväksy kirjoittamalla \"CONFIRM\" tai hylkää kirjoittamalla \"DENY\".\n\n" },
+        { "buyBeltBag2", "Tilattu taktisia vyölaukkuja (x[variableAmount]). Uusi saldonne on: [playerCredits].\n\nUrakoitsijamme saavat nauttia nopeasta, ilmaisesta toimituksesta työssä ollessaan! Ostetut esineet saapuvat tunneittain lähelle sijaintiasi.\n\n" },
         { "buyBoombox", "Olet pyytänyt tilata mankkoja. Määrä: [variableAmount]. \nEsineiden kokonaishinta: [totalCost].\n\nOle hyvä ja hyväksy kirjoittamalla \"CONFIRM\" tai hylkää kirjoittamalla \"DENY\".\n\n" },
         { "buyBoombox2", "Tilattu mankkoja (x[variableAmount]). Uusi saldonne on: [playerCredits].\n\nUrakoitsijamme saavat nauttia nopeasta, ilmaisesta toimituksesta työssä ollessaan! Ostetut esineet saapuvat tunneittain lähelle sijaintiasi.\n\n" },
         { "buyCruiser", "Olet pyytänyt tilata Yhtiökruisaajan. \nEsineiden kokonaishinta: [totalCost].\n\nOle hyvä ja hyväksy kirjoittamalla \"CONFIRM\" tai hylkää kirjoittamalla \"DENY\".\n\n" },
@@ -85,6 +87,7 @@ internal class Dictionaries {
         { "buyZapGun2", "Tilattu lamauttimia (x[variableAmount]). Uusi saldonne on: [playerCredits].\n\nUrakoitsijamme saavat nauttia nopeasta, ilmaisesta toimituksesta työssä ollessaan! Ostetut esineet saapuvat tunneittain lähelle sijaintiasi.\n\n" },
         { "AutopickerInfo", "\nTiirikat voivat avata rajattoman potentiaalisi työn tehokkuudelle. Omistustekoälyllä toimivina, ne avaavat sinulle minkä tahansa lukitun oven.\n\n" },
         { "BBbulbInfo", "\nKaikkein edullisin valon lähde. Se on jopa vedenkestävä!\n\n" },
+        { "BeltBagInfo", "Yhtiön ikiomat, taktiset vyölaukut ovat välttämättömyys niille, jotka tahtovat antaa kaikkensa! Ne voivat säilöä 15 hyötyesinettä kerrallaan. Et enää koskaan tunne oloasi turhaksi!\n\nPaina vain [Q] säilöäksesi esineen laukkuun, sen jälkeen klikkaa tutkiaksesi sen sisältöä ja vetääksesi esineitä ulos. Muut pelaajat voivat myös käyttää laukkua sen ollessa kiinnitettynä vyötärösi ympärille.\n\n" },
         { "BoomboxInfo", "\nNämä jammaavat sävelmät ovat loistava keino kohottaa miehistön moraalia!\n\n" },
         { "CruiserInfo", "Yhtiökruisaaja on kokonainen jakeluauto, kykeneväinen kuljettamaan niin montaa esinettä kuin ikinä tarvitsetkaan, työtoverisi mukaan lukien! Yhtiökruisaajaostoksesi mukana tulee yksi ilmainen, elinikäinen takuu, koska me olemme niin itsevarmoja sen kestävyydestä ja hyödyllisyydestä!\n\nSen mukana tulee käyttöohjeet, joten muista lukea sen parhaista käytännöistä.\n\n" },
         { "ExtensionLadderInfo", "\nEkstensiotikapuut voivat ylettyä jopa yhdeksän metrin korkeuteen! Käytä sitä minkä tahansa kallion ylittämiseen ja kurkota tähtiin! Varauksen säästämiseksi, ekstensiotikapuut automaattisesti säilövät itsensä 18 sekunnin jälkeen.\n\n" },
@@ -290,7 +293,7 @@ namespace FinPatcher {
     public static class PluginInfo {
         public const string ModGUID = "com.acehanded.lethalcompany.finloc";
         public const string ModName = "FinPatcher";
-        public const string ModVersion = "1.4.4";
+        public const string ModVersion = "1.4.5";
     }
 }
 
