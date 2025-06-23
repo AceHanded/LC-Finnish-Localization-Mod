@@ -95,18 +95,20 @@ Your rank:=Sijasi:
 
 ## Logs
 
-'Smells here! - Aug 24='Smells here! - 24. elo
+'Mummy - Aug 24='Mummy - 24. elo
 'Swing of things - Aug 27='Swing of things - 27. elo
-'Shady - Aug 31='Shady - 31. elo
-'Sound behind the wall - Sep 4='Sound behind the wall - 4. syys
+'Golden planet - Aug ??='Golden planet - ??. elo
+'Autopilot - Aug 31='Autopilot - 31. elo
+'Behind The Wall - Sep 4='Behind The Wall - 4. syys
 'Goodbye - Sep 7='Goodbye - 7. syys
 'Screams - Sep 13='Screams - 13. syys
-'Golden planet - Aug ??='Golden planet - ??. elo
 'Idea - Sep 18='Idea - 18. syys
 'Nonsense - Sep 27='Nonsense - 27. syys
 'Hiding - Sep 30='Hiding - 30. syys
 'Real Job - Oct 1='Real Job - 1. loka
-'Desmond - Oct 15='Desmond - 15. loka
+'Desmond - Oct 9='Desmond - 9. loka
+'Team Synergy - Oct 10='Team Synergy - 10. loka
+'Letter Of Resignation - Oct 13='Letter Of Resignation - 13. loka
 
 
 ## Scanner
@@ -159,20 +161,3 @@ Change: Hazard suit=Vaihda: Suojapuku
 Change: Pajama suit=Vaihda: Yöpuku
 Change: Purple Suit=Vaihda: Violetti puku
 Change suit=Vaihda puku
-
-
-## Mods
-
-### LC_API
-
-(Note that if someone doesnt show up on the list, they may not have LC_API installed)=(Huom. jos joku pelaaja ei ole listalla, LC_API ei luultavasti ole asennettuna)
-
-Asking all other players for installed mods..=Haetaan asennettuja modeja kaikilta muilta pelaajilta..
-Check the logs for more detailed results.\n=Tarkista lokit saadaksesi tarkempia tietoja.\n
-Grabbing all connected users mod list\nCheck the log for results!!=Kerätään kaikkien yhdistäneiden käyttäjien modilistat\nKatso loki nähdäksesi tulokset!!
-Mod List:=Modilista:
-
-
-### MoreEmotes
-
-Enter Text...=Syötä Tekstiä...

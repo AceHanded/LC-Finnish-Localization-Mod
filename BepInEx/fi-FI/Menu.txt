@@ -104,9 +104,6 @@ Replace furniture=Siirrä huonekalua
 Save File=Tallennus-\ntiedosto
 Servers=Palvelin-\nluettelo
 Server name:=Palvelimen nimi:
-Some of your save files may not be compatible with version 50 and may be corrupted if you play them.=Jotkin tallennustiedostosi eivät ole yhteensopivia version 50 kanssa, ja saattavat olla korruptoituneita, jos yrität pelata niitä.
-Some of your save files may not be compatible with version 55 and may be corrupted if you play them.=Jotkin tallennustiedostosi eivät ole yhteensopivia version 55 kanssa, ja saattavat olla korruptoituneita, jos yrität pelata niitä.
-Some of your save files may not be compatible with version 60 and may be corrupted if you play them.=Jotkin tallennustiedostosi eivät ole yhteensopivia version 60 kanssa, ja saattavat olla korruptoituneita, jos yrität pelata niitä.
 Sort: far=Järjestä: kaukana
 Sort: Friends=Järjestä: Ystävät
 Sort: near=Järjestä: lähellä
@@ -130,7 +127,7 @@ Welcome!\nThis patch includes the replayable challenge moons and new factory hal
 Window=Ikkuna
 Windowed fullscreen=Koko näytön ikkuna
 With challenge moon=Haastekuulla
-Would you like to leave the game?=Haluaisitko poistua pelistä?
+Would you like to leave the game?=Tahdotko poistua pelistä?
 You are in LAN mode. When allowing remote connections through LAN, please ensure you have sufficient network security such as a firewall and/or VPN.=Olet LAN-tilassa. Sallittaessa etäyhteydet LAN-verkon kautta, varmista, että sinulla on riittävä verkkoturva, kuten palomuuri ja/tai VPN.
 
 
@@ -211,51 +208,3 @@ Walk right=Kävele oikealle
 ## Boot up
 
       BG IG, A System-Act Ally\n      Copyright (C) 2084-2108, Halden Electronics Inc.\n\nCPU Type      :     BORSON 300 CPU at 2500 MHz\nMemory test  :      4521586K OK\n\nBoot Distributioner Application v0.04\nCopyright (C) 2107 Distributioner\n    Detecting Sting X ROM\n    Detecting Web LNV Extender\n    Detecting Heartbeats OK\n\n\nUTGF Device Listening...\n\nBody   ID   Neural   Device Class\n________________________________________\n\n2      52   Jo152       H515\n2      52   Sa5155      H515\n2      52   Bo75        H515\n2      52   Eri510      H515\n1      36   Ell567      H515\n1      36   Jos912      H515\n0\n=      BG IG, Järjestelmäasetuksen Tukija\n      Copyright (C) 2084-2108, Halden Electronics Oy\n\nSuoritintyyppi  :     BORSON 300 -suoritin (2500 MHz)\nMuistitesti     :     4521586K OK\n\nKäynnistyksen Jakelijasovellus v0.04\nCopyright (C) 2107 Jakelija\n    Havaitaan X ROM -solutus\n    Havaitaan Verkon LNV-laajennin\n    Havaitaan Sydämenlyöntejä OK\n\n\nUTGF-laite Kuuntelee...\n\nRyhmä  ID   Hermosto   Laiteluokka\n________________________________________\n\n2      52   Jo152        H515\n2      52   Sa5155       H515\n2      52   Bo75         H515\n2      52   Eri510       H515\n1      36   Ell567       H515\n1      36   Jos912       H515\n0\n
-
-
-## Credits
-
-r:"(?s)^Thanks to PuffoThePufferfish and Blueray901165 for helping shape this game. They were the closest with it through the entire process, helping me test and improve it every step of the way.\n\nThanks to my patrons who have generously supported me throughout this game's long and sometimes-rocky development:(.*)Thanks to Zenonclaw for modelling the shovel and the old elevator, which was scrapped long ago but still used for its parts.\n\nThanks to ZedFox for one of the boombox tracks \(the good one\).\n\nThanks to youreashotgun for the snare flea TV channel.\n\nAnd thanks to Noah, Seth, Null, Sam, Zenonclaw, Zedfox, and Joseph for helping playtest throughout early development.(.*)Sound effects from Freesound.org, licensed under CC-BY \(Attribution\). Thank you:(.*)$"=Kiitokset PuffoThePufferfishille ja Blueray901165:lle heidän avustansa tämän pelin muovaamisessa. He olivat sitä lähimpänä koko prosessin ajan, auttaen minua testaamaan ja parantamaan sitä sen jokaisessa vaiheessa.\n\nKiitokset tukijoilleni, jotka ovat anteliaasti tukeneet minua pelin pitkän ja toisinaan kivisen kehityksen lävitse:$1Kiitokset Zenonclawille lapion ja vanhan hissin mallintamisesta, joista jälkimmäinen hylättiin jo aikoja sitten, mutta jonka osia edelleen käytettiin.\n\nKiitokset ZedFoxille yhdestä mankan kappaleesta (siitä hyvästä).\n\nKiitokset youreashotgunille ansakirpun TV-kanavasta.\n\nJa kiitokset Noahille, Sethille, Nullille, Samille, Zenonclawille, ZedFoxille, ja Josephille pelin testaamisesta läpi sen aikaisen kehityksen.$2Ääniefektit Freesound.orgista, CC-BY lisensoitu (Nimeäminen). Kiitokset:$3
-
-
-## Mods
-
-### BiggerLobby
-
-Max players...=Maksimipelaajat...
-Max players (16)...=Maksimipelaajat (16)...
-Notice: High max player counts\nmay cause lag.=Huomautus: Korkeat maksimipelaajamäärät voivat aiheuttaa viivettä.
-yeah you should be good now lol=Noniin, nyt näyttää hyvältä
-
-
-### MoreEmotes
-
-(Controller)=(Ohjain)
-(Keyboard only)=(Vain näppäimistö)
-
-> More Emotes=             > More Emotes -asetukset
-
-(Read Only) Ignores all ingame saved settings and instead uses the config file=(Kirjoitussuojattu) Jättää\npelinsisäisesti tallennetut\nasetukset huomiotta ja käyttää\nsen sijaan asetustiedostoa
-Clap=Taputa
-Emote Wheel=Toimintopyörä
-EMPTY=TYHJÄ
-Inventory Check=Tavaraluettelotarkistus
-Middle Finger=Keskisormi
-Prevents some emotes from performing while holding items/scrap=Estää joidenkin toimintojen\nsuorittamisen esineitä/romua\npideltäessä
-Prisyadka=Ripaska
-Quick Emotes=Pikatoiminnot
-Remap=Muuta
-Salute=Tervehdi
-Settings=Asetukset
-Shy=Ujo
-Sign=Kyltti
-The Griddy=Griddy
-Twerk=Twerkkaa
-Use Config File=Käytä Asetustiedostoa
-WAITING FOR KEY=ODOTETAAN NÄPPÄINTÄ
-
-
-### MoreCompany
-
-Cosmetics Enabled:=Kosmetiikat Päällä:
-Crew Size:=Miehistön Koko:

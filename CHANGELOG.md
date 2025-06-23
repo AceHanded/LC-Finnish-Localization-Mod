@@ -1,3 +1,9 @@
+## Version 1.5.0
+- Added translations for content added in game version 70.
+- Updated all creature and log entries in the terminal.
+- Improved translations' faithfulness to the original material.
+- Removed internal translations for external mods.
+
 ## Version 1.4.5
 - Added translations for content added in game version 64.
 
@@ -30,7 +36,7 @@
 - General fixes to translations.
 
 ## Version 1.3.2
-- Translated the new log entry added in v47.
+- Translated the new log entry added in game version 47.
 - Reviewed the translations thoroughly.
 - General fixes to translations.
 

@@ -43,6 +43,7 @@ r:"^Picking lock: (.+?) sec.$"=Tiirikoidaan lukkoa: $1 s
 r:"^Press (.+?) to talk.$"=Paina $1 puhuaksesi.
 r:"^PROFIT QUOTA:\n(\$[0-9]+) / (\$[0-9]+)$"=KIINTIÖ:\n$1 / $2
 r:"^Random seed: ([0-9]+)$"=Satunnainen siemen: $1
+r:"^Some of your save files may not be compatible with version (\d+) and may be corrupted if you play them.$"=Jotkin tallennustiedostosi eivät ole yhteensopivia version $1 kanssa, ja saattavat olla korruptoituneita, jos yrität pelata niitä.
 r:"^Tell autopilot ship to leave early : (.+?)\(Hold\)$"=Määritä autopilotti lähtemään aikaisin : $1（Paina pohjassa）
 r:"^TIP!: Hold (.+) to vote for the autopilot ship to leave early.$"=Vinkki!: Paina $1 pohjassa äänestääksesi autopilotin aikaisesta lähdöstä.
 r:"^TOTAL: (\$[0-9]+)$"=SUMMA: $1
@@ -78,29 +79,3 @@ sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x
 sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n$16 (x$17) : $18 \n$19 (x$20) : $21 \n$22 (x$23) : $24 \n
 sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n$16 (x$17) : $18 \n$19 (x$20) : $21 \n$22 (x$23) : $24 \n$25 (x$26) : $27 \n
 sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n(.+?) \(x([0-9]+)\) : ([0-9]+) \n$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n$16 (x$17) : $18 \n$19 (x$20) : $21 \n$22 (x$23) : $24 \n$25 (x$26) : $27 \n$28 (x$29) : $30 \n
-
-# sr:"^(.+?) \(x([0-9]+)\) : ([0-9]+) \n(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?(?:(.+?) \(x([0-9]+)\) : ([0-9]+) \n)?$"=$1 (x$2) : $3 \n$4 (x$5) : $6 \n$7 (x$8) : $9 \n$10 (x$11) : $12 \n$13 (x$14) : $15 \n$16 (x$17) : $18 \n$19 (x$20) : $21 \n$22 (x$23) : $24 \n$25 (x$26) : $27 \n$28 (x$29) : $30 \n
-
-
-## Mods
-
-### MoreEmotes
-
-r:"^(.+) Cancel$"=$1 Hylkää
-r:"^(.+) Page ([0-9]+)/([0-9]+) (.+)$"=$1 Sivu $2/$3 $4
-r:"^(.+) Submit$"=$1 Valmis
-r:"^CHARACTERS LEFT: (.+)$"=MERKKEJÄ JÄLJELLÄ: $1
-r:"^Line Break (.+)$"=Rivinvaihto $1
-
-
-### ObjectVolumeController
-
-r:"(?s)^Grab boombox: (.+?)\n([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Poimi mankka: $1\nÄänenvoimakkuus $2\nNosta äänenvoimakkuutta: $3\nLaske äänenvoimakkuutta: $4
-r:"(?s)^Television: (.+?)\n([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Televisio: $1\nÄänenvoimakkuus $2\nNosta äänenvoimakkuutta: $3\nLaske äänenvoimakkuutta: $4
-r:"(?s)^Record player: (.+?)\n([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Levysoitin: $1\nÄänenvoimakkuus $2\nNosta äänenvoimakkuutta: $3\nLaske äänenvoimakkuutta: $4
-r:"^([0-9]+\%) volume\nVolume up:   (.+?)\nVolume down: (.+)$"=Äänenvoimakkuus $1\nNosta äänenvoimakkuutta: $2\nLaske äänenvoimakkuutta: $3
-
-
-### ShipLoot
-
-r:"^SHIP: (\$[0-9]+)$"=ALUS: $1
