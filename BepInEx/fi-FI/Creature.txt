@@ -1,14 +1,18 @@
 ﻿# Creature
 
 Baboon hawk=Paviaanihaukka
+Backwater Gunkfish=Takamaan Mönjäkala
 Barber=Parturi
 Bracken=Sananjalka
 Bunker spider=Bunkkerihämähäkki
 Butler=Hovimestari
+Cadavers=Kalmoja
+Cadaver Bloom=Kalmon Kukinto
 Circuit bees=Piirimehiläiset
 Coil-head=Kierrepää
 Earth Leviathan=Maaleviatan
 Eyeless dog=Silmätön koira
+Feiopar=Rumapardi
 Forest Giant=Metsäjätti
 Forest keeper=Metsänvartija
 Ghost girl=Aavetyttö

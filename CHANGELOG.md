@@ -1,3 +1,7 @@
+## Version 1.5.1
+- Added translations for content added in game versions 73 & 80.
+- General fixes to translations.
+
 ## Version 1.5.0
 - Added translations for content added in game version 70.
 - Updated all creature and log entries in the terminal.

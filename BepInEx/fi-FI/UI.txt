@@ -14,6 +14,7 @@ CRITICAL INJURY=KRIITTINEN VAMMA
 DEADLINE:\n1 Days=TAKARAJA:\n1 Päivä
 DEADLINE:\n NOW=TAKARAJA:\n NYT
 DOOR HYDRAULICS:=OVIHYDRAULIIKAT:
+ENTERING THE ATMOSPHERE...=SAAVUTAAN KUULLE...
 HANDS FULL=KÄDET TÄYNNÄ
 HAZARD LEVEL:=VAARA-ASTE:
 Inventory full!=Tavaraluettelo täynnä!
@@ -30,8 +31,7 @@ Typing...=Kirjoitetaan...
 VISIBILITY LOW!\n\nSteam leak detected in area=HEIKKO NÄKYVYYS!\n\nHöyryvuoto havaittu alueella
 Waiting for crew...=Odotetaan pelaajia...
 
-
-## Autopilot
+# Autopilot
 
 Alert! The autopilot is leaving due to dangerous conditions.=Huomio! Autopilotti lähtee vaarallisten olosuhteiden johdosta.
 PILOT COMPUTER=PILOTTIKONE
@@ -42,8 +42,7 @@ Voted for ship to leave early=Äänestetty aluksen aikaisesta lähdöstä
 WARNING!!! The autopilot ship will leave at midnight. Please return quickly.=VAROITUS!!! Aluksen autopilotti lähtee keskiyöllä. Palaa pikaisesti takaisin.
 Warning! No response from crew, which has not returned. Emergency code activated.=Varoitus! Ei vastausta miehistöltä, joka ei ole palannut. Hätäkoodi aktivoitu.
 
-
-## Causes of death
+# Causes of death
 
 Abandoned=Hylkääminen
 Blast=Räjähdys
@@ -63,8 +62,7 @@ Strangulation=Kuristaminen
 Suffocation=Tukehtuminen
 Unknown=Tuntematon
 
-
-## Employee ranks
+# Employee ranks
 
 Intern=Harjoittelija
 Part-timer=Osa-aikainen
@@ -72,8 +70,7 @@ Employee=Palkansaaja
 Leader=Johtaja
 Boss=Esimies
 
-
-## End-of-the-day / game / quota
+# End-of-the-day / game / quota
 
 1 Day Left=1 Päivä
 Bubblegum=Purkkapallo
@@ -92,26 +89,25 @@ YOU ARE FIRED.=SAIT POTKUT.
 You did not meet the profit quota before the deadline.=Et täyttänyt kiintiötä ennen määräaikaa.
 Your rank:=Sijasi:
 
+# Logs
 
-## Logs
+Mummy - Aug 24=Mummy - 24. elo
+Swing of things - Aug 27=Swing of things - 27. elo
+Golden planet - Aug ??=Golden planet - ??. elo
+Autopilot - Aug 31=Autopilot - 31. elo
+Behind The Wall - Sep 4=Behind The Wall - 4. syys
+Goodbye - Sep 7=Goodbye - 7. syys
+Screams - Sep 13=Screams - 13. syys
+Idea - Sep 18=Idea - 18. syys
+Nonsense - Sep 27=Nonsense - 27. syys
+Hiding - Sep 30=Hiding - 30. syys
+Real Job - Oct 1=Real Job - 1. loka
+Desmond - Oct 9=Desmond - 9. loka
+Team Synergy - Oct 10=Team Synergy - 10. loka
+Letter Of Resignation - Oct 13=Letter Of Resignation - 13. loka
+Work - Oct 15=Work - 15. loka
 
-'Mummy - Aug 24='Mummy - 24. elo
-'Swing of things - Aug 27='Swing of things - 27. elo
-'Golden planet - Aug ??='Golden planet - ??. elo
-'Autopilot - Aug 31='Autopilot - 31. elo
-'Behind The Wall - Sep 4='Behind The Wall - 4. syys
-'Goodbye - Sep 7='Goodbye - 7. syys
-'Screams - Sep 13='Screams - 13. syys
-'Idea - Sep 18='Idea - 18. syys
-'Nonsense - Sep 27='Nonsense - 27. syys
-'Hiding - Sep 30='Hiding - 30. syys
-'Real Job - Oct 1='Real Job - 1. loka
-'Desmond - Oct 9='Desmond - 9. loka
-'Team Synergy - Oct 10='Team Synergy - 10. loka
-'Letter Of Resignation - Oct 13='Letter Of Resignation - 13. loka
-
-
-## Scanner
+# Scanner
 
 Brake lever=Jarruvipu
 Buy flashlights and travel to new planets!=Osta taskulamppuja ja matkaa uusille planeetoille!
@@ -132,15 +128,16 @@ Terminal=Terminaali
 Training manual=Valmennusmanuaali
 Useful info!=Kelpoa tietoa!
 
-
-## Side notifications
+# Side notifications
 
 ALERT!=HUOMIO!
 Drop your metallic items now! A static charge has been detected. You have seconds left to live.=Pudota metalliesineesi nyt! Staattinen varaus havaittu. Sinulla on sekunteja elinaikaa.
+Equipped to utility belt!=Varustettu työkalupaikkaan!
 Got scrap!=Romua kerätty!
 HALT!=SEIS!
 Item collected!=Esine kerätty!
 Items missed!=Esineet menetetty!
+Press TAB to select the utility belt. This can only hold one-handed tools.=Paina SARKAINTA valitaksesi työkalupaikan. Tämä voi säilyttää vain yhdellä kädellä käytettäviä työkaluja.
 The vehicle returned with your purchased items. Our delivery fee cannot be refunded.=Kulkuneuvo palasi ostamienne esineiden kanssa. Toimitusmaksuamme ei voida palauttaa.
 TIP:=VINKKI:
 To sell, use the terminal to route the ship to the company building.=Esineiden myymiseksi, suuntaa terminaalin avulla kohti niiden myyntipaikkaa.
@@ -151,8 +148,7 @@ You can try the challenge moon again, but you can't retry your rank until the ne
 You have 0 days left to meet the quota. Use the terminal to route to the company and sell.=Sinulla on 0 vuorokautta aikaa hankkia romua. Suuntaa terminaalin avulla kohti esineiden myyntipaikkaa.
 You have landed in an eclipse. Exercise caution!=Olet laskeutunut pimennykseen. Etene varoen!
 
-
-## Suits
+# Suits
 
 Change: Bee Suit=Vaihda: Mehiläispuku
 Change: Bunny Suit=Vaihda: Pupupuku

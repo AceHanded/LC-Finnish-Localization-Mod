@@ -56,6 +56,7 @@ CONTROLS=OHJAUKSET
 Credits=Lopputekstit
 CREW:=MIEHISTÖ:
 Deceased=Kuollut
+Default=Oletus
 Delete=Poista
 DISCARD=HYLKÄÄ
 Discard=Hylkää
@@ -73,7 +74,11 @@ Frame rate cap:=Virkistystaajuus:
 Friends-only=Yksityinen
 Gamma/Brightness:=Gamma/Kirkkaus:
 Go back=Palaa
+GRAPHICS=GRAFIIKKA
+Head Bobbing=Pään Heilunta
+High (Default)=Korkea (Oletus)
 Host LAN Server:=Luo LAN-palvelin:
+Indirect lighting=Epäsuora valaistus
 INSTABILITY:=EPÄVAKAUS:
 Invert Y-Axis=Käännä Y-Akseli
 Join=Liity
@@ -86,14 +91,21 @@ Loading server list...=Ladataan palvelinlistaa...
 Lobby is full!=Aula on täynnä!
 Local-only=Vain paikallinen
 Look sensitivity:=Hiiren herkkyys:
+Low=Matala
 Master volume:=Äänenvoimakkuus:
 Maximized window=Maksimoitu ikkuna
+Medium=Keskiverto
 MODE: Push to talk=TILA: Paina puhuaksesi
 MODE: Voice activation=TILA: Ääniaktivoitu
+Moderate=Kohtuullinen
+Motion Blur=Liikkeen Sumennus
 Name your server...=Nimeä palvelimesi...
 No available servers to join.=Ei palvelimia saatavilla.
+Off=Pois päältä
 Online=Online
 Option A=Vaihtoehto A
+Pixel Resolution=Pikselien Resoluutio
+Performance=Suorituskyky
 PRIVATE means you must send invites through Steam for players to join.=YKSITYINEN tarkoittaa, että kutsut täytyy lähettää Steamin kautta pelaajien liittymiseksi.
 PUBLIC means your game will be visible on the server list for all to see.=JULKINEN tarkoittaa, että pelisi on näkyvissä palvelinlistalla kaikkien nähtävänä.
 Public=Julkinen
@@ -101,6 +113,7 @@ Push to talk=Paina puhuaksesi
 REBIND CONTROLLERS=MUUTA OHJAIMIEN OHJAUKSIA
 REMAP CONTROLS=MUUTA OHJAUKSIA
 Replace furniture=Siirrä huonekalua
+Retro=Retro
 Save File=Tallennus-\ntiedosto
 Servers=Palvelin-\nluettelo
 Server name:=Palvelimen nimi:
@@ -111,11 +124,16 @@ Sort: Similar rank=Järjestä: Vastaava sija
 Sort: Top 20=Järjestä: Top 20
 Sort: worldwide=Järjestä: kaikki
 Started server, joining...=Palvelin käynnistetty, liitytään...
+Subtle=Hienovarainen
+Terrain / Grass Detail=Maaston / Ruohon Laatu
 The file will NOT save! Your ship must be in orbit.=Tiedostoa EI tallenneta! Aluksesi on oltava kiertoradalla.
 The host has not loaded or has already landed their ship.=Isäntä ei ole latautunut peliin tai on jo laskeutunut aluksellaan.
 The server host disconnected.=Palvelimen isäntä poistui.
 The server is full!=Palvelin on täynnä!
 This is the weekly challenge moon.\nYou have one day to make as much profit as possible.=Tämä on viikottainen haastekuu.\nSinulla on yksi päivä saada mahdollisimman paljon tuottoa.
+Toggle Sprint=Juoksun Lukitus
+Ultra=Ultra
+Ultra performance=Ultrasuorituskyky
 Uncapped=Rajoittamaton
 Unconfirmed changes!=Hyväksymättömiä muutoksia!
 Use monitor (V-Sync)=Monitori (V-Sync)
@@ -130,8 +148,7 @@ With challenge moon=Haastekuulla
 Would you like to leave the game?=Tahdotko poistua pelistä?
 You are in LAN mode. When allowing remote connections through LAN, please ensure you have sufficient network security such as a firewall and/or VPN.=Olet LAN-tilassa. Sallittaessa etäyhteydet LAN-verkon kautta, varmista, että sinulla on riittävä verkkoturva, kuten palomuuri ja/tai VPN.
 
-
-## Keybinds
+# Keybinds
 
 Backspace=Askelpalautin
 Button East=Oikea Painike
@@ -199,12 +216,12 @@ Submit chat=Lähetä viesti
 Tab=Sarkain
 Turn furniture=Käännä huonekalua
 Up Arrow=Ylänuoli
+Utility Slot=Työkalupaikka
 Walk back=Kävele taaksepäin
 Walk forward=Kävele eteenpäin
 Walk left=Kävele vasemmalle
 Walk right=Kävele oikealle
 
-
-## Boot up
+# Boot up
 
       BG IG, A System-Act Ally\n      Copyright (C) 2084-2108, Halden Electronics Inc.\n\nCPU Type      :     BORSON 300 CPU at 2500 MHz\nMemory test  :      4521586K OK\n\nBoot Distributioner Application v0.04\nCopyright (C) 2107 Distributioner\n    Detecting Sting X ROM\n    Detecting Web LNV Extender\n    Detecting Heartbeats OK\n\n\nUTGF Device Listening...\n\nBody   ID   Neural   Device Class\n________________________________________\n\n2      52   Jo152       H515\n2      52   Sa5155      H515\n2      52   Bo75        H515\n2      52   Eri510      H515\n1      36   Ell567      H515\n1      36   Jos912      H515\n0\n=      BG IG, Järjestelmäasetuksen Tukija\n      Copyright (C) 2084-2108, Halden Electronics Oy\n\nSuoritintyyppi  :     BORSON 300 -suoritin (2500 MHz)\nMuistitesti     :     4521586K OK\n\nKäynnistyksen Jakelijasovellus v0.04\nCopyright (C) 2107 Jakelija\n    Havaitaan X ROM -solutus\n    Havaitaan Verkon LNV-laajennin\n    Havaitaan Sydämenlyöntejä OK\n\n\nUTGF-laite Kuuntelee...\n\nRyhmä  ID   Hermosto   Laiteluokka\n________________________________________\n\n2      52   Jo152        H515\n2      52   Sa5155       H515\n2      52   Bo75         H515\n2      52   Eri510       H515\n1      36   Ell567       H515\n1      36   Jos912       H515\n0\n

@@ -14,6 +14,8 @@
 8 Titan=Titaani-8
 85 Rend=Repeymä-85
 
+# Weather
+
 Abandoned=Hylätty
 Diverse=Monipuolinen
 Eclipsed=Pimentynyt
@@ -24,6 +26,8 @@ Rainy=Sateinen
 Safe=Turvallinen
 Stormy=Myrskyinen
 Unknown=Tuntematon
+
+# Descriptions
 
 A competitive ecosystem supports aggressive lifeforms.=Kilpailullinen ekosysteemi tukee aggressiivisia elämänmuotoja.
 A landscape of deep valleys and mountains.=Syvien laaksojen ja vuorien täyttämä maisema.
@@ -43,4 +47,4 @@ No land masses. Continual storms.=Ei maamassaa. Jatkuvia myrskyjä.
 Rumored active machinery left behind.=Huhujen mukaan aktiivista koneistoa on jätetty taakse.
 Unlikely for complex life to exist=Kompleksin elämän olemassaolo epätodennäköistä.
 Waning forests. Abandoned facilities littered across the landscape.=Hupenevia metsiä. Hylättyjä laitoksia täynnä.
-Where the Company resides.=Yhtiön toimipaikka.
+Where the Company resides.=Yhtiön olinsija.
